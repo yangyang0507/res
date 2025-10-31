@@ -4,11 +4,219 @@
     <link>https://dyang.top/res/feed/cbc95de65dcf93b4014dbcf5633a9901e511ab07.xml</link>
     <description>从云原生迈向 AI 原生——站在云原生与 AI 的交汇点，探索下一代智能化基础设施。&#xA;(wechat feed made by @ttttmr https://wechat2rss.xlab.app)</description>
     <managingEditor> (几米宋)</managingEditor>
+    <pubDate>Fri, 31 Oct 2025 11:27:16 +0800</pubDate>
+    <lastBuildDate>Fri, 31 Oct 2025 11:27:16 +0800</lastBuildDate>
     <image>
       <url>http://wx.qlogo.cn/mmhead/ZMdxSDafpxQic69wqHIlkd8p6libiaIMcic7cm8iciaEIBiaCYQnbhnefNLrAK0yWJSjmQtn9VPrlymXZU/0</url>
       <title>几米宋</title>
       <link>https://dyang.top/res/feed/cbc95de65dcf93b4014dbcf5633a9901e511ab07.xml</link>
     </image>
+    <item>
+      <title>从 Kubernetes 到 Qwen：AI 时代的“开源”为何变了？</title>
+      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650171417&amp;idx=1&amp;sn=b775115ab2c2066eabb12eaba9f2dc47</link>
+      <description>探讨 AI 时代开源的变革，从 Kubernetes 到 Qwen，揭示中美厂商在开源策略上的根本差异与新机遇。</description>
+      <content:encoded><![CDATA[<p>
+原创 <span>Jimmy Song</span> <span>2025-10-31 11:27</span> <span style="display: inline-block;">北京</span>
+</p>
+
+
+
+
+<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=e644d253&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcPSiawSR3RunITwYAZPfYzaDICP4gIGndtP3tNictcmANgdpMS5BpyLJibtLiaicGIYHbibvbpEBiaicicUnwg%2F0%3Fwx_fmt%3Djpeg"/></p>
+
+<p>探讨 AI 时代开源的变革，从 Kubernetes 到 Qwen，揭示中美厂商在开源策略上的根本差异与新机遇。</p>
+
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎大家关注「几米宋」的微信公众号，公众号聚焦于 AI、云原生、开源软件、技术观察以及日常感悟等内容，更多精彩内容请访问个人网站 jimmysong.io。</p><hr/><blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;">📄 文章摘要</strong></p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">探讨 AI 时代开源的变革，从 Kubernetes 到 Qwen，揭示中美厂商在开源策略上的根本差异与新机遇。</p>
+</blockquote><blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">AI 时代的开源已不再是“看得见源码”，而是“能加载模型、能微调智能”。美国厂商闭源筑护城河，中国厂商开源抢生态，开源的意义和玩法都发生了根本变化。</p>
+</blockquote><img alt="AI 时代开源的逻辑彻底变了" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-type="jpeg" data-w="1080" data-ratio="0.6666666666666666" src="https://rss.koyangslash.workers.dev/img-proxy/?k=cb6da6e6&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcPSiawSR3RunITwYAZPfYzaDoa8E0c6lpeibwzMAiafGU4UkOy4icCR1JUWqwKGg5dmibBxGIdKQgEy9rQ%2F640%3Fwx_fmt%3Djpeg"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">AI 时代开源的逻辑彻底变了</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">引言</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">十年前，云原生浪潮掀起时，美国的 Google、Red Hat、Docker 等公司开源了大量基础设施软件——Kubernetes、Docker、Istio 成了全球开发者的共同语言。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">然而进入大模型时代，局面却完全反转：美国科技公司几乎不再开源核心模型，而中国厂商（如智谱、阿里、面壁、零一万物、月之暗面等）却频频发布开源大模型。为什么会出现这种转变？“AI 开源”与“基础设施开源”又有什么根本区别？</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">云原生时代与 AI 时代的开源逻辑变化</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下表对比了云原生与 AI 时代开源的核心逻辑、盈利方式和资源依赖。</p><div style="overflow: auto hidden;-webkit-overflow-scrolling: touch;margin: 0.3em 0px;border-width: 0.5px;border-style: solid;border-color: rgb(221, 221, 221);border-radius: 6px;box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
+<thead>
+<tr style="background:#ffffff;">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">时代</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">代表技术</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">开源核心逻辑</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">盈利方式</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">对资源依赖</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">云原生时代（2010s）</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Istio、Kubernetes、Docker</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">共建标准、扩张生态</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">托管服务（GKE、EKS）</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">CPU 级算力，可社区驱动</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">AI 大模型时代（2020s）</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Ollama、GPT、Qwen</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">模型即资产、控制数据</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">API 服务或闭源 SaaS</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">GPU 级算力、集中化</td>
+</tr>
+</tbody></table></div><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">云原生开源强调“共建标准”，而 AI 大模型开源则意味着“核心资产的开放”，两者的本质和动因截然不同。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">美国公司为何不再真正开源</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">美国科技公司在 AI 时代选择闭源，背后有多重原因：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 商业逻辑转向护城河思维：训练成本高昂，模型权重成为核心壁垒，开源等于让出竞争力。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 算力与数据不可复制：社区难以复现 GPT-4 级别模型。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 安全与合规约束：模型权重可能涉及用户数据，监管严格。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• “开放”被重新定义为“API 可访问”：开放平台更多指接口开放，而非代码与权重开放。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">中国公司为何更愿意开源</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">中国厂商在 AI 领域积极开源，主要基于以下考量：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 用开源换生态、换认知，快速建立品牌影响力。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• “开源 + 商业许可”双轨模式，兼顾生态扩展与商业收益。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 数据政策环境更灵活，政策鼓励自主模型。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 国家战略驱动，“自主可控”与“开源生态”成为科技战略重点。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">开源载体的迁移：从 GitHub 到 Hugging Face</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">开源的载体也发生了变化。下表展示了 GitHub 与 Hugging Face 在开源形态上的区别。</p><div style="overflow: auto hidden;-webkit-overflow-scrolling: touch;margin: 0.3em 0px;border-width: 0.5px;border-style: solid;border-color: rgb(221, 221, 221);border-radius: 6px;box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
+<thead>
+<tr style="background:#fafafa;">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">平台</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">时代</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">核心资产</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">开源形态</th>
+</tr>
+</thead>
+<tbody><tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">GitHub</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">软件 / 云原生</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">源码 (.go /.py /.js)</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">可编译、可运行</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Hugging Face</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">AI 模型</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">模型权重 + Tokenizer + 推理脚本</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">可加载、可微调</td>
+</tr>
+</tbody></table></div><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">GitHub 主要开源“程序逻辑”，而 Hugging Face 则开源“模型智力”，两者的核心资产完全不同。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">AI 开源的核心要素</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">AI 时代的开源不仅仅是代码开放，更包括权重、推理代码和微调能力。下面分别说明三大要素。</p><h3 style="font-size:18px;font-weight:bold;color:#333;margin:16px 0 6px 0;padding:0;line-height:1.4;border-left:4px solid #007acc;padding-left:10px;">开放权重（Weights）</h3><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">模型训练后的全部知识都存储在权重参数中。拥有权重即拥有模型的“智力本体”。闭源模型（如 GPT-4）只提供 API，不开放权重。</p><h3 style="font-size:18px;font-weight:bold;color:#333;margin:16px 0 6px 0;padding:0;line-height:1.4;border-left:4px solid #007acc;padding-left:10px;">开放推理代码（Inference Code）</h3><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">推理代码定义了如何加载权重、分词、并发计算和显存优化。下方代码演示了如何加载 Qwen3 模型：</p><div style="overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;margin:15px 0;border-radius:5px;box-shadow:0 2px 4px rgba(0,0,0,0.1);background:#1e1e1e;"><pre style="background: rgb(30, 30, 30);color: rgb(212, 212, 212);border-width: medium;border-style: none;border-color: currentcolor;padding: 15px;margin: 0px;border-radius: 5px;font-family: Consolas, Monaco, monospace;font-size: 14px;line-height: 1.45;white-space: pre;overflow-wrap: normal;overflow-x: visible;"><code>from transformers import AutoModelForCausalLM, AutoTokenizer
+
+<span style="color:#6a9955;"># 加载模型与分词器</span>
+model_name = &#34;Qwen/Qwen3-4B-Instruct-<span style="color:#b5cea8;">2507</span>&#34;
+tokenizer = AutoTokenizer.<span style="color:#dcdcaa;">from_pretrained</span>(model_name)
+model = AutoModelForCausalLM.<span style="color:#dcdcaa;">from_pretrained</span>(
+    model_name,
+    torch_dtype=&#34;auto&#34;,  <span style="color:#6a9955;"># 自动选择 FP16 或 FP32</span>
+    device_map=&#34;auto&#34;    <span style="color:#6a9955;"># 自动分配到 GPU / CPU</span>
+)
+
+<span style="color:#6a9955;"># 推理</span>
+prompt = &#34;你好，请简要介绍一下大模型的微调原理。&#34;
+inputs = <span style="color:#dcdcaa;">tokenizer</span>(prompt, return_tensors=&#34;pt&#34;).<span style="color:#dcdcaa;">to</span>(model.device)
+outputs = model.<span style="color:#dcdcaa;">generate</span>(**inputs, max_new_tokens=<span style="color:#b5cea8;">200</span>)
+<span style="color:#dcdcaa;">print</span>(tokenizer.<span style="color:#dcdcaa;">decode</span>(outputs[<span style="color:#b5cea8;">0</span>], skip_special_tokens=True))
+</code></pre></div><h3 style="font-size:18px;font-weight:bold;color:#333;margin:16px 0 6px 0;padding:0;line-height:1.4;border-left:4px solid #007acc;padding-left:10px;">微调（Fine-tuning）</h3><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">微调是在开源模型基础上再训练，使其适应特定数据和场景。常见方式有 LoRA / QLoRA，成本低，能让通用模型变成企业专属助手。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">企业为何选择自部署而非 API</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">企业在实际应用中，往往更倾向于自部署开源模型。下表总结了主要原因和说明。</p><div style="overflow: auto hidden;-webkit-overflow-scrolling: touch;margin: 0.3em 0px;border-width: 0.5px;border-style: solid;border-color: rgb(221, 221, 221);border-radius: 6px;box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
+<thead>
+<tr style="background:#ffffff;">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">原因</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">说明</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">数据隐私</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">敏感数据不能外传</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">成本可控</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">API 按调用计费，长期昂贵</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">可定制性</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">可结合企业知识做 RAG / Agent</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">可运维性</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">可离线运行、统一监控、合规部署</td>
+</tr>
+</tbody></table></div><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">Qwen3-4B-Instruct-2507 模型结构与使用</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">以 Qwen3-4B-Instruct-2507 为例，介绍 Hugging Face 上模型的目录结构和使用方法。</p><h3 style="font-size:18px;font-weight:bold;color:#333;margin:16px 0 6px 0;padding:0;line-height:1.4;border-left:4px solid #007acc;padding-left:10px;">目录结构说明</h3><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">模型下载后目录结构如下：</p><img alt="Qwen3-4B-Instruct-2507 目录结构" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-type="jpeg" data-w="1080" data-ratio="0.5740740740740741" src="https://rss.koyangslash.workers.dev/img-proxy/?k=90e1c723&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcPSiawSR3RunITwYAZPfYzaD6ylnqmduFtBYEyEzLvcb4Vej8PibAiaaOB3tXfbvqXsTPUelNE1oPxOA%2F640%3Fwx_fmt%3Djpeg"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">Qwen3-4B-Instruct-2507 目录结构</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">开源模型的目录结构可以用下图表示：</p><img alt="开源大模型目录结构" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-type="png" data-w="989" data-ratio="0.4034378159757331" src="https://rss.koyangslash.workers.dev/img-proxy/?k=f08cfcaa&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcPSiawSR3RunITwYAZPfYzaDEb77AYe2um5kL4dYycYQ1hHw3XWq8iavku7Jt6RSibr1Kd4zbudn6JuA%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">开源大模型目录结构</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">在开源模型的目录结构中，<code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">model.safetensors</code> 文件即为模型权重，存储数十亿参数。
+还有其他文件，如 <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">README.md</code>、<code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">LICENSE</code>、<code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">.gitattributes</code>，其作用说明如下：</p><div style="overflow: auto hidden;-webkit-overflow-scrolling: touch;margin: 0.3em 0px;border-width: 0.5px;border-style: solid;border-color: rgb(221, 221, 221);border-radius: 6px;box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
+<thead>
+<tr style="background:#fafafa;">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">分类</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">文件</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">作用说明</th>
+</tr>
+</thead>
+<tbody><tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">模型定义</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">config.json</code>, <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">model.safetensors.*</code>, <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">model.safetensors.index.json</code></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">定义模型结构与参数权重</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">分词系统</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">tokenizer.json</code>, <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">tokenizer_config.json</code>, <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">vocab.json</code>, <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">merges.txt</code></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">定义文本输入输出的编码方式</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">推理配置</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">generation_config.json</code></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">控制生成策略（温度、top_p 等）</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">元信息</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">README.md</code>, <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">LICENSE</code>, <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">.gitattributes</code></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">模型介绍、许可、Git 属性</td>
+</tr>
+</tbody></table></div><h3 style="font-size:18px;font-weight:bold;color:#333;margin:16px 0 6px 0;padding:0;line-height:1.4;border-left:4px solid #007acc;padding-left:10px;">加载与推理代码示例</h3><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">以下代码展示了如何加载并运行 Qwen3-4B-Instruct-2507 模型：</p><div style="overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;margin:15px 0;border-radius:5px;box-shadow:0 2px 4px rgba(0,0,0,0.1);background:#1e1e1e;"><pre style="background: rgb(30, 30, 30);color: rgb(212, 212, 212);border-width: medium;border-style: none;border-color: currentcolor;padding: 15px;margin: 0px;border-radius: 5px;font-family: Consolas, Monaco, monospace;font-size: 14px;line-height: 1.45;white-space: pre;overflow-wrap: normal;overflow-x: visible;"><code>from transformers import AutoTokenizer, AutoModelForCausalLM
+
+<span style="color:#6a9955;"># 加载分词器和模型</span>
+tokenizer = AutoTokenizer.<span style="color:#dcdcaa;">from_pretrained</span>(
+    &#34;Qwen/Qwen3-4B-Instruct-<span style="color:#b5cea8;">2507</span>&#34;,
+    trust_remote_code=True
+)
+model = AutoModelForCausalLM.<span style="color:#dcdcaa;">from_pretrained</span>(
+    &#34;Qwen/Qwen3-4B-Instruct-<span style="color:#b5cea8;">2507</span>&#34;,
+    device_map=&#34;auto&#34;
+)
+
+<span style="color:#6a9955;"># 构造输入并推理</span>
+prompt = &#34;你好，解释一下云原生的意义。&#34;
+inputs = <span style="color:#dcdcaa;">tokenizer</span>(prompt, return_tensors=&#34;pt&#34;).<span style="color:#dcdcaa;">to</span>(model.device)
+outputs = model.<span style="color:#dcdcaa;">generate</span>(**inputs, max_new_tokens=<span style="color:#b5cea8;">200</span>)
+<span style="color:#dcdcaa;">print</span>(tokenizer.<span style="color:#dcdcaa;">decode</span>(outputs[<span style="color:#b5cea8;">0</span>], skip_special_tokens=True))
+</code></pre></div><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">如显存不足，可采用量化加载方式：</p><div style="overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;margin:15px 0;border-radius:5px;box-shadow:0 2px 4px rgba(0,0,0,0.1);background:#1e1e1e;"><pre style="background: rgb(30, 30, 30);color: rgb(212, 212, 212);border-width: medium;border-style: none;border-color: currentcolor;padding: 15px;margin: 0px;border-radius: 5px;font-family: Consolas, Monaco, monospace;font-size: 14px;line-height: 1.45;white-space: pre;overflow-wrap: normal;overflow-x: visible;"><code>mdl = AutoModelForCausalLM.<span style="color:#dcdcaa;">from_pretrained</span>(
+    &#34;Qwen/Qwen3-4B-Instruct-<span style="color:#b5cea8;">2507</span>&#34;,
+    device_map=&#34;auto&#34;,
+    load_in_8bit=True
+)
+</code></pre></div><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">开源 LLM 的开发者应用场景</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">开源大模型为开发者带来了丰富的应用场景。下表总结了常见方向、用途和工具。</p><div style="overflow: auto hidden;-webkit-overflow-scrolling: touch;margin: 0.3em 0px;border-width: 0.5px;border-style: solid;border-color: rgb(221, 221, 221);border-radius: 6px;box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
+<thead>
+<tr style="background:#ffffff;">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">方向</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">能做的事</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">工具</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">聊天 / 助手</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">本地 ChatGPT</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">LM Studio、TextGen WebUI</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">知识库 RAG</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">接私有数据问答</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">LangChain、LlamaIndex</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">智能体 Agent</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">任务执行、工具调用</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">LangGraph、Autogen</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">微调 / 适配</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">定制企业知识</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">PEFT、LoRA</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">模型服务</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">部署为 API 服务</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">vLLM、TGI、Ollama</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">研究实验</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">模型压缩、量化</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">BitsAndBytes、FlashAttention</td>
+</tr>
+</tbody></table></div><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">开源模型生命周期</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">开源模型从下载到生产上线的完整生命周期如下：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. 下载模型权重</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">2. 加载推理代码</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">3. 本地推理或部署服务</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">4. 微调专属数据</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">5. 企业集成 RAG / Agent</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">6. 上线生产环境</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">如何判断开源大模型的许可证</h2><blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下载一个开源模型 = 拥有一颗可加载、可训练、可商用的“智能大脑”；
+但能不能拿它赚钱，还得看它的 License。</p>
+</blockquote><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">同传统的开源项目一样，对于大模型，是否可以商用，也需要关注许可证。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">查看方法：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. Hugging Face 模型主页右上角 → <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">License: ...</code></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">2. 仓库根目录下的 <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">LICENSE</code> 或 <code style="background:rgba(128, 128, 128, 0.1);color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all;">README.md</code> 文件</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">简要的判断流程如下：</p><img alt="开源大模型许可证判断流程" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-type="png" data-w="737" data-ratio="1.5644504748982362" src="https://rss.koyangslash.workers.dev/img-proxy/?k=4ad38f12&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcPSiawSR3RunITwYAZPfYzaDQBicdiaPRk8P33rcbibEnqyVuZYNibwK4ZDd1WicD4eZDrEAEThSX1rQAhA%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">开源大模型许可证判断流程</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">总结</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">AI 时代的开源已从“能看源码”转变为“能加载模型、能微调智能”。美国厂商以闭源维护商业护城河，中国厂商则用开源抢占生态高地。开源的真正价值在于赋能开发者，让每个人都能拥有属于自己的“通用大脑”，构建智能基础设施。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">参考文献</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• Hugging Face - huggingface.co</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• Qwen3-4B-Instruct-2507 模型主页 - huggingface.co</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• Kubernetes 官网 - kubernetes.io</p><hr/><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;">🔗 更多精彩内容</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 🌐 个人网站：jimmysong.io</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 🎥 Bilibili：space.bilibili.com/31004924</p><blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">💫 <strong style="color:#007acc;font-weight:bold;">如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</strong></p>
+</blockquote><p style="display: none;"><mp-style-type data-value="10000"></mp-style-type></p>
+
+
+<p><a href="https://jimmysong.io/blog/ai-era-open-source-difference/">阅读原文</a></p>
+<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=6ff9cf2f&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650171417%26idx%3D1%26sn%3Db775115ab2c2066eabb12eaba9f2dc47">跳转微信打开</a></p>
+]]></content:encoded>
+      <pubDate>Fri, 31 Oct 2025 11:27:00 +0800</pubDate>
+    </item>
     <item>
       <title>从孔子到开源：道与术之间的中国式创新困境</title>
       <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650171362&amp;idx=1&amp;sn=57bcab81a398e2ee8c7f8901302007f3</link>
@@ -1084,38 +1292,6 @@ mode: agent
 <p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=596ce56f&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650170967%26idx%3D1%26sn%3Dc6ec6ec9aeb0330af82f08aebfe1dd52">跳转微信打开</a></p>
 ]]></content:encoded>
       <pubDate>Wed, 17 Sep 2025 11:58:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>AI 原生时代的 OSPO：从全球报告看中国企业的新机遇</title>
-      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650170966&amp;idx=1&amp;sn=29417e59451ccf2b61641007914a42b6</link>
-      <description>OSPO 已从合规与安全部门，演变为 AI 原生时代企业治理与创新的战略中枢。本文解析 2025 年 Linux Foundation 报告，并结合中国头部企业的开源实践，展望 OSPO 在中国的发展机遇。</description>
-      <content:encoded><![CDATA[<p>
-原创 <span>Jimmy Song</span> <span>2025-09-16 10:07</span> <span style="display: inline-block;">北京</span>
-</p>
-
-
-
-
-<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=630f7ba4&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcMxVd44vibkcqjQVLjudayDA7I5zSH9HqnXOewpHPwMdcIFO5lKzJdm9ygH8VCibdIQhHy5x4zV2V3w%2F0%3Fwx_fmt%3Djpeg"/></p>
-
-<p>OSPO 已从合规与安全部门，演变为 AI 原生时代企业治理与创新的战略中枢。本文解析 2025 年 Linux Foundation 报告，并结合中国头部企业的开源实践，展望 OSPO 在中国的发展机遇。</p>
-
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎大家关注「几米宋」的微信公众号，公众号聚焦于 AI、云原生、开源软件、技术观察以及日常感悟等内容，更多精彩内容请访问个人网站 jimmysong.io。</p><hr/><blockquote>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;">📄 文章摘要</strong><br/>OSPO 已从合规与安全部门，演变为 AI 原生时代企业治理与创新的战略中枢。本文解析 2025 年 Linux Foundation 报告，并结合中国头部企业的开源实践，展望 OSPO 在中国的发展机遇。</p>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">🔗 在 jimmysong.io 上 阅读原文 体验更佳。</p>
-</blockquote><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">2025 年，开源软件办公室（OSPO）已经不再是新鲜概念。从 Linux Foundation 发布的最新报告 The 2025 State of OSPOs and Open Source Management 中可以看到，OSPO 正在从单纯的合规与安全检查角色，逐渐演变为企业在开源、AI、安全与文化上的<strong style="color:#007acc;font-weight:bold;">战略中枢</strong>。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">2025 年 OSPO 的现状与趋势</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下图展示了 2025 年 OSPO（开源项目办公室）与开源管理的现状。</p><img alt="2025 年 OSPO（开源项目办公室）与开源管理现状" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-ratio="0.7703703703703704" data-w="1080" src="https://rss.koyangslash.workers.dev/img-proxy/?k=04598869&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcMxVd44vibkcqjQVLjudayDAyzQhq2ES6WoSGxjqvGUzuH9bu6v86edOurHthH88k8Cj965UDMFXaw%2F640%3Fwx_fmt%3Djpeg"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">2025 年 OSPO（开源项目办公室）与开源管理现状</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. <strong style="color:#007acc;font-weight:bold;">开源安全与合规</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 92% 的 OSPO 参与开源安全工作。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 42% 在做决策，50% 提供顾问支持。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 49% 使用内部合规流程，36% 做法律风险管理，35% 做活动报告。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. <strong style="color:#007acc;font-weight:bold;">生成式 AI 与新兴技术</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 79% 的 OSPO 在管理生成式 AI 风险方面被认为有效（2024 年是 65%）。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 66% 的 OSPO 已做好迎接新兴技术（如生成式 AI、云原生基础设施）的准备。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. <strong style="color:#007acc;font-weight:bold;">上游贡献与社区参与</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 有 OSPO 的组织 <strong style="color:#007acc;font-weight:bold;">2.5 倍更可能允许上游贡献</strong>（70% vs. 30%）。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 有 OSPO 的组织 <strong style="color:#007acc;font-weight:bold;">近 2 倍更可能鼓励开源贡献</strong>（59% vs. 30%）。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 92% 的学术 OSPO 报告其主要成果是提升了开源技能。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. <strong style="color:#007acc;font-weight:bold;">组织挑战</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 40% 面临战略缺口。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 35% 缺乏高层支持。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 35% 难以证明 ROI。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. <strong style="color:#007acc;font-weight:bold;">对企业的积极影响</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 88% 的组织认为 OSPO 提升了软件质量和安全性。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 85% 的组织获得了在开源生态中的更大影响力。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 89% 的组织开发者体验得到改善。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. <strong style="color:#007acc;font-weight:bold;">发展趋势</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 计划在两年内建立 OSPO 的组织数量增长 <strong style="color:#007acc;font-weight:bold;">3 倍</strong>（从 2024 年的 15% 到 2025 年的 45%）。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 改善开发者体验是主要推动力。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">对全球而言，这是 OSPO 成熟化的阶段；而对中国企业来说，虽然还存在差距和挑战，但在 <strong style="color:#007acc;font-weight:bold;">AI 原生时代</strong>，开源与 OSPO 可能迎来一个新的窗口期。这是一个谨慎乐观的理由。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">全球趋势：OSPO 的升级</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Linux Foundation 的报告总结了几个关键趋势：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">安全与合规仍是核心</strong>：92% 的 OSPO 参与安全事务，越来越多开始负责 AI 风险治理。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">上游贡献常态化</strong>：有 OSPO 的组织普遍更鼓励开发者参与社区，而不仅仅是“用开源”。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">开发者体验与生态影响力增强</strong>：88% 的组织认为 OSPO 提升了软件质量，85% 认为提升了在社区的影响力。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">挑战依然存在</strong>：ROI 难以衡量，高层支持不足，仍是 OSPO 生存与发展的关键痛点。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这说明：OSPO 已经走向战略层面，但也还没有找到完全稳固的商业与治理模式。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">中国头部企业的 OSPO 与开源实践</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">虽然国内公司鲜少公开对外强调“OSPO”的组织形态，但从开源项目与社区运营中可以看到影子：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">阿里巴巴</strong>：通过 ModelScope、通义千问（Qwen）等开源模型与平台，在 AI 原生时代展现了开放战略。但其开源的治理机制、合规审查和外部社区信任及被诟病已久的“KPI 式开源”仍需要加强。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">百度</strong>：依托 PaddlePaddle 和 Ernie 模型，形成了“框架 + 模型”的开源组合拳。问题在于，如何提升国际化社区的信任与协作。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">腾讯</strong>：在基础设施和工具层面有不少开源项目，但缺乏强烈的“开源战略”叙事。业务线庞杂使得统一的 OSPO 政策更加复杂。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">字节跳动</strong>：在开源社区和 AI 领域有一定参与，但整体透明度不足，更多是“内部治理 + 局部开放”，对外部贡献和开源文化的推动还处于早期。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">可以看到，中国的大厂们在“开源项目数量”上已经不弱，但在 <strong style="color:#007acc;font-weight:bold;">制度化的 OSPO 架构、透明度、国际社区信任</strong> 等方面还有差距。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">为什么我依然谨慎乐观？</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. <strong style="color:#007acc;font-weight:bold;">AI 原生时代是转折点</strong>
- AI 的发展速度，已经让合规、安全、风险管理成为刚需。没有 OSPO 或类似职能的企业，很难在 AI 时代健康地使用和贡献开源。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">2. <strong style="color:#007acc;font-weight:bold;">政策与产业趋势在推动</strong>
- 中国的产业政策正在鼓励 AI 安全与开源发展，给企业设立 OSPO 带来外部动力。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">3. <strong style="color:#007acc;font-weight:bold;">轻量级模式可行</strong>
- 对大厂来说，设立完整 OSPO 并非难事；对中小企业，可以探索轻量级 OSPO 模式，从“合规 + 内部培训 + 上游协作”入手逐步迭代。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">4. <strong style="color:#007acc;font-weight:bold;">文化正在萌芽</strong>
- 开源文化在中国正逐渐扩散：开发者更愿意参与开源，大企业开始通过开源提升影响力。这是 OSPO 长远发展的文化土壤。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">结语：谨慎乐观的期待</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">我对中国 OSPO 的发展保持谨慎乐观态度。谨慎，是因为制度化、透明度、社区信任仍需补课；乐观，是因为在 AI 原生时代，企业几乎不可能绕开开源和 OSPO，反而更有动力去建设和优化它。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">未来几年，也许中国的大公司会逐渐拿出真正意义上的 OSPO 成果：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 不只是开源项目的数量，而是治理的成熟度；</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 不只是技术开放，而是社区参与与国际信任；</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 不只是合规与防守，而是通过开源创造新的创新机遇。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这是我期待看到的，也是 OSPO 在中国能否走向成熟的关键。</p><hr/><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;">🔗 更多精彩内容</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 🌐 个人网站：jimmysong.io</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 🎥 Bilibili：space.bilibili.com/31004924</p><blockquote>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">💫 <strong style="color:#007acc;font-weight:bold;">如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</strong></p>
-</blockquote><h3 style="font-size:18px;font-weight:bold;color:#333;margin:16px 0 6px 0;padding:0;line-height:1.4;border-left:4px solid #007acc;padding-left:10px;">版权声明</h3><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">本文首发于 jimmysong.io，遵循 CC BY-NC-SA 4.0 协议。转载请注明出处并保留作者信息。</p><p style="display: none;"><mp-style-type data-value="10000"></mp-style-type></p>
-
-
-<p><a href="https://jimmysong.io/blog/ospo-2025-report-cn-analysis/">阅读原文</a></p>
-<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=234ac43c&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650170966%26idx%3D1%26sn%3D29417e59451ccf2b61641007914a42b6">跳转微信打开</a></p>
-]]></content:encoded>
-      <pubDate>Tue, 16 Sep 2025 10:07:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
