@@ -4,11 +4,156 @@
     <link>https://dyang.top/res/feed/cbc95de65dcf93b4014dbcf5633a9901e511ab07.xml</link>
     <description>从云原生迈向 AI 原生——站在云原生与 AI 的交汇点，探索下一代智能化基础设施。&#xA;(wechat feed made by @ttttmr https://wechat2rss.xlab.app)</description>
     <managingEditor> (几米宋)</managingEditor>
+    <pubDate>Mon, 03 Nov 2025 10:43:32 +0800</pubDate>
+    <lastBuildDate>Mon, 03 Nov 2025 10:43:32 +0800</lastBuildDate>
     <image>
       <url>http://wx.qlogo.cn/mmhead/ZMdxSDafpxQic69wqHIlkd8p6libiaIMcic7cm8iciaEIBiaCYQnbhnefNLrAK0yWJSjmQtn9VPrlymXZU/0</url>
       <title>几米宋</title>
       <link>https://dyang.top/res/feed/cbc95de65dcf93b4014dbcf5633a9901e511ab07.xml</link>
     </image>
+    <item>
+      <title>大模型的开源是开源吗？跟传统意义上的开源有什么区别？</title>
+      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650171454&amp;idx=1&amp;sn=eb44fd47f702c8261e0f0b221adb915b</link>
+      <description>AI 时代“开源”定义正在变化，开放权重与论文是否等同于开源？本文深入分析传统软件开源与 AI 模型开源的差异与演进。</description>
+      <content:encoded><![CDATA[<p>
+原创 <span>Jimmy Song</span> <span>2025-11-03 10:43</span> <span style="display: inline-block;">北京</span>
+</p>
+
+
+
+
+<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=645a1990&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcOLRDYj0bkiawEeA3RQ1hOoTJH5A6icwe2AibpG2LAFiaAuoibxWVXPssSVgmYVH9ULC0nZXxezWTJKTiaw%2F0%3Fwx_fmt%3Djpeg"/></p>
+
+<p>AI 时代“开源”定义正在变化，开放权重与论文是否等同于开源？本文深入分析传统软件开源与 AI 模型开源的差异与演进。</p>
+
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎大家关注「几米宋」的微信公众号，公众号聚焦于 AI、云原生、开源软件、技术观察以及日常感悟等内容，更多精彩内容请访问个人网站 jimmysong.io。</p><hr/><blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;">📄 文章摘要</strong></p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">AI 时代“开源”定义正在变化，开放权重与论文是否等同于开源？本文深入分析传统软件开源与 AI 模型开源的差异与演进。</p>
+</blockquote><blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">真正的开源，是可重现、可验证、可共创，而不仅仅是“可下载”。</p>
+</blockquote><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">在人工智能时代，“开源”这个词的含义正被重新定义。许多大模型（如 Llama、Mistral、Qwen 等）都声称自己是“开源”的，但它们并没有完全公开训练数据或训练脚本。这种现象引发了一个问题：</p><blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">开放权重与论文，是否就意味着开源？</p>
+</blockquote><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">本文将从历史、技术和哲学三个层面解读 AI 时代的“开源”演进逻辑。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">传统开源：完整可重现的自由软件精神</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">首先回顾传统软件工程时代的开源（Open Source）标准，其定义来自 Open Source Initiative (OSI)。OSI 的核心要求包括：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 必须公开源代码</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 允许自由使用、修改和再分发</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 不歧视任何人或领域</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 可用于商业目的</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">简言之，只要能在 GitHub 上下载代码、自由修改、重现结果，就是真正意义上的开源软件。</p><blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">传统开源的核心价值是“可重现性”与“自由修改”。</p>
+</blockquote><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">AI 模型的复杂结构：权重、数据与训练代码</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">AI 模型与传统软件不同，一个完整的模型包含多个层面的资产。下表总结了各类资产的含义及其开放情况。</p><div style="overflow: auto hidden;-webkit-overflow-scrolling: touch;margin: 0.3em 0px;border-width: 0.5px;border-style: solid;border-color: rgb(221, 221, 221);border-radius: 6px;box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
+<thead>
+<tr style="background:#ffffff;">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">类型</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">含义</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">是否常公开</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">模型权重（Weights）</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">神经网络参数文件（几十 GB～上 TB）</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">✅ 常公开</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">模型结构（Architecture）</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">网络结构与超参数</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">✅ 常公开</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">训练代码（Training Code）</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">训练脚本、优化器配置、分布式策略</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">❌ 很少公开</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">训练数据（Dataset）</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">语料来源、清洗规则、过滤策略</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">❌ 几乎不公开</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">推理代码（Inference Code）</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">部署与 API 实现</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">✅ 常公开</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">论文（Paper）</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">模型原理、评测结果</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">✅ 常公开</td>
+</tr>
+</tbody></table></div><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">因此，“开源模型”这一说法往往只是开放部分要素，而非完整的训练过程。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">AI 时代的新范式：“开放权重模型”（Open Weight Model）</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">随着 AI 技术的发展，主流的“开源模型”其实更准确地称为“开放权重模型”（Open Weight Model）。它们通常开放以下内容：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 模型权重（weights）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 模型结构（architecture）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 推理代码（inference）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 论文（paper）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">但未开放训练数据与训练过程。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下面是代表性项目的授权方式对比表：</p><div style="overflow: auto hidden;-webkit-overflow-scrolling: touch;margin: 0.3em 0px;border-width: 0.5px;border-style: solid;border-color: rgb(221, 221, 221);border-radius: 6px;box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
+<thead>
+<tr style="background:#fafafa;">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">模型</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">类型</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">授权方式</th>
+</tr>
+</thead>
+<tbody><tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">Meta Llama 2/3</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">开放权重</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">商业需申请</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">Mistral 7B</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">开放权重</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Apache 2.0</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">阿里 Qwen 3</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">开放权重</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Apache 2.0</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">Falcon RefinedWeb</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">完全开源（含数据）</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Apache 2.0</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">RedPajama</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">完全开源（含数据）</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Apache 2.0</td>
+</tr>
+</tbody></table></div><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这些模型虽不能复现训练过程，但已具备二次创新与验证论文结果的基础。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">为什么开放权重也被称为“开源”</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">AI 社区形成了实用主义共识：只要模型权重可下载、可运行、可商用，就具备开源精神。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这种做法的价值体现在以下几个方面：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 研究复现：他人能验证论文结果</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 生态繁荣：社区能衍生微调版本</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 技术普惠：中小企业能用上强模型</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 透明审计：外界能分析模型行为</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">虽然这种做法不符合 OSI 严格定义，但在 AI 领域形成了事实上的“行业共识”。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">开放权重 ≠ 完全开源</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">严格来说，开放权重模型仍然与真正的开源软件有本质区别。下表对比了两者的核心差异：</p><div style="overflow: auto hidden;-webkit-overflow-scrolling: touch;margin: 0.3em 0px;border-width: 0.5px;border-style: solid;border-color: rgb(221, 221, 221);border-radius: 6px;box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
+<thead>
+<tr style="background:#fafafa;">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">维度</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">传统开源软件</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">开放权重模型</th>
+</tr>
+</thead>
+<tbody><tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">代码是否完整可重现</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">✅ 是</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">❌ 否</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">训练数据公开</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">✅ 是</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">❌ 否</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">能否完全再训练</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">✅ 是</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">❌ 否</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">可商用性</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">✅ 通常允许</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">⚠️ 部分受限</td>
+</tr>
+<tr style="background:#ffffff;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">主要开放内容</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">源代码</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">模型权重</td>
+</tr>
+<tr style="background:#fafafa;">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;"><strong style="color:#007acc;font-weight:bold;">代表形式</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">GitHub 仓库</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Hugging Face 模型</td>
+</tr>
+</tbody></table></div><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">为了更直观地理解两者的不同关注点，下图进行可视化对比。</p><img alt="传统开源与开放权重模型关注点对比" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-type="png" data-w="1080" data-ratio="0.12314814814814815" src="https://rss.koyangslash.workers.dev/img-proxy/?k=202775b0&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcOLRDYj0bkiawEeA3RQ1hOoTAQ9fskqyryEFuibicR1e6z6fa31nfPibicEibV3eE4RzZxYNibIJOwTrdTrQ%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">传统开源与开放权重模型关注点对比</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这张图直观地展示了传统开源与 AI 时代“开放模型”的不同关注点。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">总结</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">AI 时代的“开源”定义从根本上发生了迁移：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 软件时代强调源码开放、可重现，目标是促进创新与自由。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• AI 时代强调权重开放、可验证，目标是促进生态共创。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">传统开源强调“可重现”，AI 时代开源强调“可验证”。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">开放权重虽非严格意义的开源，但它让 AI 技术具备了透明性、可验证性和可演化性，是对“开放精神”的一次现代延伸。</p><hr/><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;">🔗 更多精彩内容</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 🌐 个人网站：jimmysong.io</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 🎥 Bilibili：space.bilibili.com/31004924</p><blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">💫 <strong style="color:#007acc;font-weight:bold;">如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</strong></p>
+</blockquote><p style="display: none;"><mp-style-type data-value="10000"></mp-style-type></p>
+
+
+<p><a href="https://jimmysong.io/book/ai-handbook/llm/open-model/">阅读原文</a></p>
+<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=cc766f57&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650171454%26idx%3D1%26sn%3Deb44fd47f702c8261e0f0b221adb915b">跳转微信打开</a></p>
+]]></content:encoded>
+      <pubDate>Mon, 03 Nov 2025 10:43:00 +0800</pubDate>
+    </item>
     <item>
       <title>强烈推荐红学界搞一个“曹雪芹大模型”</title>
       <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650171434&amp;idx=1&amp;sn=b8f336745615df27d8ac014bd3eae143</link>
@@ -1129,168 +1274,6 @@ mode: agent
 <p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=d732768e&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650170969%26idx%3D1%26sn%3D40391b247bd78a5318c59267e2026e16">跳转微信打开</a></p>
 ]]></content:encoded>
       <pubDate>Fri, 19 Sep 2025 09:26:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>深度调研开源 PDF 转 Markdown 工具：Marker、MinerU 与替代方案</title>
-      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650170968&amp;idx=1&amp;sn=561fc71203c43aea79cf82d0df11a801</link>
-      <description>深入探讨开源 PDF 转 Markdown 工具，比较 Dolphin、MarkItDown、MinerU 和 Marker 的功能与优缺点，助您选择最佳解决方案。</description>
-      <content:encoded><![CDATA[<p>
-原创 <span>Jimmy Song</span> <span>2025-09-18 11:11</span> <span style="display: inline-block;">北京</span>
-</p>
-
-
-
-
-<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=558b3815&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcPEoDv7VEvgYoP2euGXicy0AOUmnFELepQ5nVS8Coj4QgjhU3XDLHyVoZc9UPWaXAgewrFYWSpJPAA%2F0%3Fwx_fmt%3Djpeg"/></p>
-
-<p>深入探讨开源 PDF 转 Markdown 工具，比较 Dolphin、MarkItDown、MinerU 和 Marker 的功能与优缺点，助您选择最佳解决方案。</p>
-
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎大家关注「几米宋」的微信公众号，公众号聚焦于 AI、云原生、开源软件、技术观察以及日常感悟等内容，更多精彩内容请访问个人网站 jimmysong.io。</p><hr/><blockquote>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;">📄 文章摘要</strong><br/>深入探讨开源 PDF 转 Markdown 工具，比较 Dolphin、MarkItDown、MinerU 和 Marker 的功能与优缺点，助您选择最佳解决方案。</p>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">🔗 在 jimmysong.io 上 阅读原文 体验更佳。</p>
-</blockquote><blockquote>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">本文系统对比了 Dolphin、MarkItDown、MinerU、Marker 等主流开源 PDF 转 Markdown 工具，围绕结构保真、图片表格提取、AI 能力与易用性等维度，帮助技术读者快速选型并理解各工具的适用场景。</p>
-</blockquote><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">工具功能对比总览</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">在选择 PDF 转 Markdown 工具时，结构保真度、图片表格处理能力、AI 智能解析和易用性是核心考量。下表汇总了四款主流工具的关键功能差异，便于快速对比。</p><div style="overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;margin:0.3em 0;border:0.5px solid #ddd;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,0.08);"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
-<thead>
-<tr style="background:#ffffff;">
-<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">功能维度</th>
-<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">ByteDance Dolphin</th>
-<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">Microsoft MarkItDown</th>
-<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">OpenDataLab MinerU</th>
-<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">Datalab Marker</th>
-</tr>
-</thead>
-<tbody><tr style="background:#fafafa;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">目录层级保留</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">基本保留章节层级，偶有顺序误差</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">不保留，仅纯文本</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">保留，支持标题分类</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">保留，精准识别层次</td>
-</tr>
-<tr style="background:#ffffff;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">图片内容</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">检测并输出图片</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">仅占位符，不导出图片</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">导出图片并关联说明</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">自动导出图片文件</td>
-</tr>
-<tr style="background:#fafafa;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">表格样式</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Markdown 表格，复杂表格易失真</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">简单表格或纯文本，样式丢失</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">HTML 嵌入，保留样式</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Markdown 表格，LLM 优化复杂表格</td>
-</tr>
-<tr style="background:#ffffff;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">超链接保留</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">仅文本，链接目标缺失</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">可能丢失链接，仅文本</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">链接目标未显式导出</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">识别并输出 Markdown 超链接</td>
-</tr>
-<tr style="background:#fafafa;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">图表标题引用</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">识别并绑定说明</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">不保留</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">智能匹配标题与图表</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">检测标题与引用，输出参考链接</td>
-</tr>
-<tr style="background:#ffffff;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">AI 智能解析</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">视觉大模型 OCR，两阶段解析</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">可选 Azure 文档 AI 或 GPT</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">OCR+ 多模型管线，自动识别</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">OCR/布局模型，LLM 可选</td>
-</tr>
-<tr style="background:#fafafa;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">使用方式</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">本地命令行，无界面</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">CLI/Docker，无网页 UI</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">CLI/Python API/Web 演示/App</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">CLI/GUI/API/在线平台</td>
-</tr>
-<tr style="background:#ffffff;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">免费开放性</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">MIT 许可，开源免费</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">MIT 许可，开源免费</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">代码友好，模型含 AGPL</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">GPL/研究许可，商用需授权</td>
-</tr>
-<tr style="background:#fafafa;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">安装部署</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">克隆代码 + 依赖 + 模型下载</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">pip 一键安装/Docker</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">pip/uv/Docker，自动下载模型</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">pip 安装，支持 GUI/服务器</td>
-</tr>
-<tr style="background:#ffffff;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">底层技术</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Vision Transformer OCR</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">PDFMiner+ 规则转换</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">版面检测+OCR+ 表格 + 公式多模型</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">轻量模型 + 规则+LLM 辅助</td>
-</tr>
-<tr style="background:#fafafa;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">项目背景</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">字节跳动研究团队，ACL 论文</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">微软 Autogen 团队，社区活跃</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">清华&amp;上研所，更新频繁</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">EndlessAI 初创团队，商业支持</td>
-</tr>
-<tr style="background:#ffffff;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">扩展定制</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">输出格式有限，需改源码</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">插件机制，易扩展</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">流水线可自定义，配置丰富</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">支持自定义逻辑和 LLM Prompt</td>
-</tr>
-</tbody></table></div><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">MinerU：多模型融合的高保真解析</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">MinerU 由 OpenDataLab 开源，融合多种 AI 模型，最大限度复原文档结构和内容：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 自动判别标题层级，输出清晰 Markdown 结构。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 图片、表格、公式均完整提取，复杂表格以 HTML 嵌入。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 支持 84 种语言 OCR，自动检测扫描件。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 公式识别率高，LaTeX 格式友好。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 安装支持 pip/uv/Docker，首次运行自动下载模型。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 资源占用高，推荐 GPU 环境。</p><img alt="我最喜欢的 MinerU 的一点是它可以精准得识别和使用 HTML 渲染表格" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-ratio="0.49166666666666664" data-w="1080" src="https://rss.koyangslash.workers.dev/img-proxy/?k=de458768&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcPEoDv7VEvgYoP2euGXicy0ANB6OvMgLibQhMgLNMib6wiceHBkwNW59U2O8GuJFibX81a91zwGH5K4qwg%2F640%3Fwx_fmt%3Djpeg"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">我最喜欢的 MinerU 的一点是它可以精准得识别和使用 HTML 渲染表格</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">MinerU 适合学术论文、复杂报告等高保真需求场景，部署复杂但解析质量接近商用工具。并且 MinerU 的文档和社区较为活跃，便于获取支持和交流。MinerU 还提供了客户端与 Web 页面，方便非技术用户使用。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">Marker：高效全能的现代解析方案</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Marker 由 EndlessAI 团队开发，兼顾速度与结构保真：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 保留章节、段落、列表、脚注等结构，阅读顺序合理。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 图片和表格均自动导出，支持 LLM 优化复杂表格和公式。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 超链接和参考文献均可保留，支持多格式和多语言。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 支持 CLI、GUI、API 和在线服务，易用性强。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• GPL/研究许可，商用需授权。</p><img alt="Marker 可以较高清的保存 PDF 中的图片" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-ratio="0.6824074074074075" data-w="1080" src="https://rss.koyangslash.workers.dev/img-proxy/?k=1892d59b&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcPEoDv7VEvgYoP2euGXicy0A6dIcdUpfTA4WjewwvaVkQibCiaBUN7ysIcQ5P17jzS0fic1CY6ibeejAeQ%2F640%3Fwx_fmt%3Djpeg"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">Marker 可以较高清的保存 PDF 中的图片</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Marker 适合批量转换、结构复杂文档和多语言场景，速度快、功能全，唯一需关注许可限制。笔者在测试中发现，Marker 对图片的处理较为出色，可以保存高清的原文档图片，但对复杂表格的支持相对较弱。笔者在进行电子书翻译时使用的就是 Marker。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">Dolphin：视觉大模型驱动的结构还原</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Dolphin 由字节跳动研究团队开源，采用视觉 Transformer OCR 和布局理解，能自动还原 PDF 版面结构，输出结构化 Markdown/JSON。其优势在于：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 自动保留章节、段落、表格、公式、图片及标题等结构。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 图片和公式均以 Markdown 语法嵌入，公式支持 LaTeX。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 表格以 Markdown 表格输出，复杂表格易失真。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 超链接仅保留文本，无法还原 URL。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 依赖深度学习两阶段解析，适合复杂版面和扫描件。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 本地命令行运行，无需联网，安装需下载模型权重。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Dolphin 适合对布局保真要求高、需本地自托管的场景，但复杂表格和标题顺序偶有错乱，需人工后处理。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">MarkItDown：多格式支持与插件扩展</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">MarkItDown 是微软开源的通用文件转 Markdown 工具，主打多格式支持和易用性：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 支持 PDF、Word、PPT、Excel、图片等多种格式。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• PDF 仅提取纯文本，不保留标题层级和排版。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 表格多为纯文本，复杂样式丢失，图片仅输出占位符。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 支持插件机制，可扩展新格式和自定义处理。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 可选 Azure 文档 AI 或 GPT 生成图片描述。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 安装便捷，pip 一键安装，社区活跃。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">MarkItDown 适合快速获取文本内容或批量处理多格式文件，但结构保真度有限，需后期整理层级和格式。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">其他开源工具与新兴 AI 项目</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">除上述主流工具外，以下方案也值得关注：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">Pandoc</strong>：文档转换“瑞士军刀”，支持多格式互转，适合结构清晰 PDF 快速转换。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">pdf2md (Node.js)</strong>：轻量 CLI，适合批量处理和 web 集成。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">markitdown-go</strong>：Go 环境专用，运行高效，易集成。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">olmOCR</strong>：专注扫描件 OCR，适合图像文字识别。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">pdf-to-markdown-gpt</strong>：AI 驱动，适合轻量项目。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">Docling、appjsonify、DocXChain</strong>：新兴 AI 项目，支持结构化解析和自定义流程，适合学术和复杂场景。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下表总结了这些新兴工具的特点和适用场景：</p><div style="overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;margin:0.3em 0;border:0.5px solid #ddd;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,0.08);"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333;">
-<thead>
-<tr style="background:#fafafa;">
-<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">工具类别</th>
-<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">典型代表</th>
-<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px;">优势场景</th>
-</tr>
-</thead>
-<tbody><tr style="background:#ffffff;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">通用结构良好</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Pandoc</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">章节、公式、脚注结构化文档</td>
-</tr>
-<tr style="background:#fafafa;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">JS 环境轻量工具</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">pdf2md (Node.js)</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">快速批处理，web 集成</td>
-</tr>
-<tr style="background:#ffffff;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">Go 环境专用</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">markitdown-go</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">命令行高效，Go 项目集成</td>
-</tr>
-<tr style="background:#fafafa;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">扫描件/复杂图像 PDF</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">olmOCR + 组合</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">OCR 强，图像文字识别</td>
-</tr>
-<tr style="background:#ffffff;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">AI 驱动高保真</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">pdf-to-markdown-gpt、Docling</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">AI 理解结构，格式保留更多</td>
-</tr>
-<tr style="background:#fafafa;">
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">学术 PDF 深度解析</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">appjsonify、DocXChain</td>
-<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px;">论文布局和结构分析</td>
-</tr>
-</tbody></table></div><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">如何选择 PDF 转 Markdown 工具？</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">经笔者实际测试，MinerU 的转换速度较快，可以识别复杂表格并通过 HTML 来渲染，但是对图片处理不够友好，可能导致图片截取不完整。Marker 在结构保真和图片表格处理上表现较好，且支持多种使用方式，但商业许可限制较多。Dolphin 适合对布局要求高的场景，但复杂表格处理不佳。MarkItDown 适合快速获取文本内容，但结构保真度有限。所有这些工具都有一个通病，就是对 PDF 的文档目录结构识别不够准确，尤其是多级标题和章节顺序，有时会出现错乱，需人工后期调整。总体看来推荐 Marker 和 MinerU 作为首选，Dolphin 和 MarkItDown 可作为补充工具。也可以根据具体需求组合使用，对于图书结构的文档推荐使用 Marker，对于更加开放和自由格式的文档推荐 MinerU。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">总结</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">本文系统梳理了 Dolphin、MarkItDown、MinerU、Marker 等主流开源 PDF 转 Markdown 工具的功能特点与适用场景。对于结构保真、图片表格提取、AI 智能解析和易用性等维度，各工具各有优势。实际选型时，建议结合文档复杂度、部署环境和商业许可要求，优先考虑结构保真度高且易用性强的方案。对于学术论文、复杂报告等高要求场景，推荐 MinerU 或 Marker；如需快速批量处理或多格式支持，可选 Pandoc 或 MarkItDown。未来，AI 驱动的文档解析工具将持续提升解析质量和自动化能力，值得持续关注。</p><h2 style="font-size:20px;font-weight:bold;color:#333;margin:18px 0 8px 0;padding:0;line-height:1.4;border-bottom:2px solid #007acc;padding-bottom:5px;">参考文献</h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">1. Dolphin - github.com</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">2. MarkItDown - github.com</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">3. MinerU - github.com</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">4. Marker - github.com</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">5. Pandoc - pandoc.org</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">6. pdf2md - github.com</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">7. markitdown-go - github.com</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">8. Docling - github.com</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">9. appjsonify - github.com</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">10. DocXChain - github.com</p><hr/><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;">🔗 更多精彩内容</strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 🌐 个人网站：jimmysong.io</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 🎥 Bilibili：space.bilibili.com/31004924</p><blockquote>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">💫 <strong style="color:#007acc;font-weight:bold;">如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</strong></p>
-</blockquote><h3 style="font-size:18px;font-weight:bold;color:#333;margin:16px 0 6px 0;padding:0;line-height:1.4;border-left:4px solid #007acc;padding-left:10px;">版权声明</h3><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">本文首发于 jimmysong.io，遵循 CC BY-NC-SA 4.0 协议。转载请注明出处并保留作者信息。</p><p style="display: none;"><mp-style-type data-value="10000"></mp-style-type></p>
-
-
-<p><a href="https://jimmysong.io/blog/pdf-to-markdown-open-source-deep-dive/">阅读原文</a></p>
-<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=5634c026&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650170968%26idx%3D1%26sn%3D561fc71203c43aea79cf82d0df11a801">跳转微信打开</a></p>
-]]></content:encoded>
-      <pubDate>Thu, 18 Sep 2025 11:11:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
