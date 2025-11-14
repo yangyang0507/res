@@ -4,13 +4,462 @@
     <link>https://dyang.top/res/feed/cbc95de65dcf93b4014dbcf5633a9901e511ab07.xml</link>
     <description>从云原生迈向 AI 原生——站在云原生与 AI 的交汇点，探索下一代智能化基础设施。&#xA;(wechat feed made by @ttttmr https://wechat2rss.xlab.app)</description>
     <managingEditor> (几米宋)</managingEditor>
-    <pubDate>Thu, 13 Nov 2025 10:19:50 +0800</pubDate>
-    <lastBuildDate>Thu, 13 Nov 2025 10:19:50 +0800</lastBuildDate>
+    <pubDate>Fri, 14 Nov 2025 11:26:53 +0800</pubDate>
+    <lastBuildDate>Fri, 14 Nov 2025 11:26:53 +0800</lastBuildDate>
     <image>
       <url>http://wx.qlogo.cn/mmhead/ZMdxSDafpxQic69wqHIlkd8p6libiaIMcic7cm8iciaEIBiaCYQnbhnefNLrAK0yWJSjmQtn9VPrlymXZU/0</url>
       <title>几米宋</title>
       <link>https://dyang.top/res/feed/cbc95de65dcf93b4014dbcf5633a9901e511ab07.xml</link>
     </image>
+    <item>
+      <title>云原生大模型推理四件套如何协同构建高效推理体系？</title>
+      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650172755&amp;idx=1&amp;sn=8e96b88d868acc384e2de9a1a9c8c103</link>
+      <description>云原生与 AI 原生架构师必读：KServe、vLLM、llm-d、WG Serving 如何形成大模型推理的云原生“四件套”，各自定位与组合优势，以及生态融合趋势分析。</description>
+      <content:encoded><![CDATA[<p>
+<span>Jimmy Song</span> <span>2025-11-14 11:26</span> <span style="display: inline-block;">北京</span>
+</p>
+
+
+
+
+<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=ae2cc6f7&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcMBOogW87Tu2vorhbWsYXwWD4BeWW3DQxJZWJOKe4oVTtauIy1gdm8c14d6LCRWcG2eVNRLobVtbg%2F0%3Fwx_fmt%3Djpeg"/></p>
+
+<p>云原生与 AI 原生架构师必读：KServe、vLLM、llm-d、WG Serving 如何形成大模型推理的云原生“四件套”，各自定位与组合优势，以及生态融合趋势分析。</p>
+
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎关注「几米宋」微信公众号，这里专注分享 AI 前沿、云原生技术、开源生态、行业洞察与个人思考。更多精彩内容，欢迎访问我的个人网站 jimmysong.io。</p>
+<blockquote style=" margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18); margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18);  " data-wechat-blockquote-style="summary">
+<p style="margin:0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;margin-bottom:10px;border-radius:999px;background:#fbde8b;color:#4a3005;font-size:13px;font-weight:700;letter-spacing:0.35px;" data-wechat-summary-label="true">📄 文章摘要</span></p>
+<p style="margin:0 0 0.55em 0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;">云原生与 AI 原生架构师必读：KServe、vLLM、llm-d、WG Serving 如何形成大模型推理的云原生“四件套”，各自定位与组合优势，以及生态融合趋势分析。</p>
+</blockquote>
+
+<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
+<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;">云原生推理体系的标准化与模块化，正让大模型部署像 Web 服务一样简单高效。</p>
+</blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">大模型推理正在从单机加速器时代迈向云原生分布式体系。当前最具代表性的组合是 <strong style="color:#007acc;font-weight:bold;">KServe、vLLM、llm-d 与 WG Serving</strong>（Working Group Serving）。它们分别承担标准接口、执行引擎、调度层和协作规范四个角色，共同形成可扩展、可观测、可治理的推理底座。</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下方时间线梳理了四件套的关键演进节点：</p>
+<img alt="云原生大模型推理四件套演进时间线" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=6c47aba2&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcMBOogW87Tu2vorhbWsYXwWsCjuNouJH06yOF0ZavjbWfDvKkOqmNZcl9Jxg3dWvsEevick39BOcWg%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">云原生大模型推理四件套演进时间线</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">架构总览</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下方架构图展示了四件套在推理体系中的分层协作关系：</p>
+<img alt="云原生大模型推理四件套架构总览" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=71b8b62b&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcMBOogW87Tu2vorhbWsYXwWlicgdns9M2z4P6gTSSmRmYdCzsibWqARxz6Fe65h9tDfuMtgJYQVEdTA%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">云原生大模型推理四件套架构总览</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">KServe：云原生模型服务核心</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">KServe 是 Kubernetes 原生的推理控制平面。它以 CRD（Custom Resource Definition, 自定义资源定义）形式抽象模型服务，使 AI 推理像微服务一样可部署、可扩缩、可灰度。</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下表总结了 KServe 的核心能力与新特性：</p>
+<p data-wechat-table="true" style="max-width:100%;overflow:auto;-webkit-overflow-scrolling:touch;margin:0.3em 0"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333">
+<thead>
+<tr style="background:#ffffff">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">维度</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">描述</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">核心目标</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">提供 Kubernetes 原生的推理标准与控制面</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">核心能力</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">CRD 标准化、弹性伸缩、流量治理、网关统一入口</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">新特性</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">LeaderWorkerSet 支持、AI Gateway 集成、与 llm-d 对接</td>
+</tr>
+</tbody></table></p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">KServe 的关键能力包括：</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">统一接口</strong>：InferenceService CRD 定义输入输出协议，与 REST/GRPC 或 OpenAI API 兼容。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">弹性调度</strong>：支持 GPU 自动伸缩与 ModelMesh 多模型托管。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">流量治理</strong>：金丝雀发布、A/B 测试、推理图（InferenceGraph）。</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">最新版本引入 LeaderWorkerSet（LWS）机制与 Envoy AI Gateway 扩展，使多 Pod 大模型推理成为原生能力。KServe 正从传统 ML 服务平台转型为 <strong style="color:#007acc;font-weight:bold;">生成式 AI 控制平面标准</strong>。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">vLLM：高性能推理执行引擎</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">vLLM 聚焦极致吞吐与显存效率，是当前开源性能标杆。</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下方时序图展示了 vLLM 推理的主要流程：</p>
+<img alt="vLLM 推理流程" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=ece6b74e&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcMBOogW87Tu2vorhbWsYXwWLA25aV1zeQwl18lE8E0Z0o0l2clTQa58B9SzGEO6GkqkR3sYgcXAkA%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">vLLM 推理流程</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下表总结了 vLLM 的核心技术机制与效果：</p>
+<p data-wechat-table="true" style="max-width:100%;overflow:auto;-webkit-overflow-scrolling:touch;margin:0.3em 0"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333">
+<thead>
+<tr style="background:#ffffff">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">特性</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">技术机制</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">效果</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">PagedAttention</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">显存分页管理</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">延长上下文，减少碎片</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">Continuous Batching</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">动态批调度</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">提高 GPU 利用率</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">Prefix Cache</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">前缀复用</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">降低延迟与成本</td>
+</tr>
+</tbody></table></p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">vLLM 兼容 OpenAI API，支持 INT8/FP8 等量化及多种并行模式，适配 NVIDIA、AMD、TPU、Gaudi 等硬件。在单机或小规模场景下，vLLM 可独立运行；在集群环境中，它是 KServe/llm-d 的执行底座。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">llm-d：分布式推理调度层</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">llm-d 是 Kubernetes 上的大模型调度与编排系统，为 vLLM 提供多实例协同能力。设计目标：<strong style="color:#007acc;font-weight:bold;">让集群像单机一样推理</strong>。</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下表总结了 llm-d 的核心机制与技术亮点：</p>
+<p data-wechat-table="true" style="max-width:100%;overflow:auto;-webkit-overflow-scrolling:touch;margin:0.3em 0"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333">
+<thead>
+<tr style="background:#ffffff">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">模块</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">功能</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">技术亮点</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">Scheduler</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">缓存感知路由</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">按前缀亲和调度</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">Prefill/Decode 分离</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">异构硬件优化</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">A100 Prefill + L40 Decode</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">Cache Manager</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">全局缓存索引</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">GPU/CPU/NVMe 层次化缓存</td>
+</tr>
+</tbody></table></p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下方流程图展示了 llm-d 的分布式调度与缓存机制：</p>
+<img alt="llm-d 分布式调度与缓存机制" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=cfd6501b&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcMBOogW87Tu2vorhbWsYXwWgeUKAdVt19ZXowFmic9WXkicIvGlQMZib0MAG4hwFZeFV6CKcG0UoSSLw%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">llm-d 分布式调度与缓存机制</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">llm-d 在 KServe 控制面下以 Leader/Worker 形式运行，调度器嵌入 Envoy 或独立部署，可实时依据缓存与负载信息决策路由。其出现让多节点大语言模型（LLM, Large Language Model）推理首次具备了<strong style="color:#007acc;font-weight:bold;">自治调度与弹性并行</strong>。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">WG Serving：协同标准与生态枢纽</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">WG Serving 是 Kubernetes 社区推动的 AI Serving 工作组，定义推理在 K8s 中的统一语义。</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下表总结了 WG Serving 的核心成果与标准化贡献：</p>
+<p data-wechat-table="true" style="max-width:100%;overflow:auto;-webkit-overflow-scrolling:touch;margin:0.3em 0"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333">
+<thead>
+<tr style="background:#ffffff">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">成果/标准</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">说明</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">Gateway Inference Extension (GIE)</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">基于 Envoy 的推理网关协议，支持模型识别、流式转发、优先级与缓存亲和路由</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">LeaderWorkerSet CRD</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">显式描述 Leader–Worker 协作结构，成为 llm-d 和 KServe 实现多 Pod 推理的基础</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">接口对齐</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">倡导 OpenAI-style API 与 K8s 资源对象融合，推动多框架互通</td>
+</tr>
+</tbody></table></p>
+<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
+<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">GIE 是云原生 AI 推理的“统一网关语言”</strong>，就像 Ingress 定义 HTTP 服务入口一样，它定义了推理请求在 Kubernetes 内的标准语义与网关行为，使推理系统可组合、可观测、可扩展。</p>
+</blockquote>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下方流程图展示了 WG Serving 在推理体系中的标准化协作关系：</p>
+<img alt="WG Serving 标准化协作关系" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=92c7478c&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcMBOogW87Tu2vorhbWsYXwW6VurDzSWdpXEMUKBCVFiacJ5Hsgqlk1u5z98wphmlcg5obicazVM1d1w%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">WG Serving 标准化协作关系</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">WG Serving 不是产品，而是<strong style="color:#007acc;font-weight:bold;">形成行业共识的标准层</strong>，正促成云原生 AI 推理的统一语言。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">组合架构</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下表总结了四件套在系统中的分工与角色：</p>
+<p data-wechat-table="true" style="max-width:100%;overflow:auto;-webkit-overflow-scrolling:touch;margin:0.3em 0"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333">
+<thead>
+<tr style="background:#ffffff">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">层级</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">组件</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">角色</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">入口层</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">Envoy + GIE</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">统一 API 网关与流量调度钩子</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">控制层</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">KServe + LWS</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">生命周期管理、弹性伸缩、流量编排</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">调度层</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">llm-d</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">前缀感知路由、跨 Pod 协作、缓存管理</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">执行层</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">vLLM</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">高效推理执行与缓存复用</td>
+</tr>
+</tbody></table></p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下方架构图展示了四件套的协同关系：</p>
+<img alt="云原生大模型推理四件套协同关系" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=1f1aef7a&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcMBOogW87Tu2vorhbWsYXwW4SM5IBEU7AHvsq4oIpntoibI5MLLmYZHxowmPxCWtRibGv4pLYicKaic6g%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">云原生大模型推理四件套协同关系</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">客户端以 OpenAI API 格式发送请求，经 GIE 网关调度到最优 Leader，Prefill 完成后缓存传递至 Worker Decode，最终流式返回结果。整套链路兼具标准接口、高吞吐与弹性伸缩特性。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">生态收敛趋势</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下表总结了云原生大模型推理生态的收敛趋势与特性对比：</p>
+<p data-wechat-table="true" style="max-width:100%;overflow:auto;-webkit-overflow-scrolling:touch;margin:0.3em 0"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333">
+<thead>
+<tr style="background:#fafafa">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">趋势/特性</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">说明</th>
+</tr>
+</thead>
+<tbody><tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">API 统一化</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">OpenAI 式接口成为事实标准，KServe 与 vLLM 等均原生兼容</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">模块解耦</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">网关、调度、推理分层，利于独立演进与替换</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">缓存分层化</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">GPU–CPU–NVMe 三级 KV 缓存成为主流方案</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">社区协同</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">WG Serving、PyTorch 基金会、CNCF 等共同推动跨项目融合</td>
+</tr>
+</tbody></table></p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下方对比矩阵展示了各项目的核心能力：</p>
+<p data-wechat-table="true" style="max-width:100%;overflow:auto;-webkit-overflow-scrolling:touch;margin:0.3em 0"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333">
+<thead>
+<tr style="background:#ffffff">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">项目</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">控制面</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">推理性能</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">分布式能力</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">接口兼容</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">缓存机制</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">弹性扩缩</th>
+</tr>
+</thead>
+<tbody><tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px"><strong style="color:#007acc;font-weight:bold;">KServe</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">✅ CRD / LWS</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⚪ 中</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⭐ 多模型管理</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">✅ OpenAI API</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⚪ 无</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">✅</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px"><strong style="color:#007acc;font-weight:bold;">vLLM</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⚪ 无</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">🌟 极高</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⭐ 多 GPU</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">✅ OpenAI API</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">✅ Paged KV</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⚪ 无</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px"><strong style="color:#007acc;font-weight:bold;">llm-d</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⭐ K8s 原生调度</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">🌟 高</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">🌟 多实例协同</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">✅ 继承上层接口</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">🌟 全局缓存</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">✅</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px"><strong style="color:#007acc;font-weight:bold;">WG Serving</strong></td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">🌟 标准抽象</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⚪ 无</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">🌟 跨项目协同</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">🌟 统一规范</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⚪ 不涉及</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">⚪</td>
+</tr>
+</tbody></table></p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">未来推理栈将以标准 API 与可插拔模块为核心，实现<strong style="color:#007acc;font-weight:bold;">像部署 Web 服务一样部署大语言模型（LLM, Large Language Model）</strong>。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">部署范式示例</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">在 Kubernetes 集群中，四件套的部署范式如下：</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">Prefill 层</strong>：4 × A100 Pod，负责长上下文计算。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">Decode 层</strong>：16 × L4 Pod，执行流式生成。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">llm-d 调度器</strong>：依据缓存命中率动态路由。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">KServe 控制面</strong>：管理 LWS 资源与扩缩容。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• <strong style="color:#007acc;font-weight:bold;">Envoy GIE 网关</strong>：统一 OpenAI 接口入口。</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下方拓扑图展示了部署结构：</p>
+<img alt="云原生大模型推理四件套部署拓扑" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=e1960c05&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcMBOogW87Tu2vorhbWsYXwWgpx70viaRWSyAnF9WhvYenrDyjujibdpfoDd7oKAPfft6Pgo9bmfdXrA%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">云原生大模型推理四件套部署拓扑</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">此组合实现高并发、低成本、可观测的大模型服务。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">结语：标准化的未来</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下表总结了四件套在推理体系中的层级、角色与核心贡献：</p>
+<p data-wechat-table="true" style="max-width:100%;overflow:auto;-webkit-overflow-scrolling:touch;margin:0.3em 0"><table style="width:100%;border-collapse:collapse;margin:0;font-size:16px;line-height:1.6;color:#333">
+<thead>
+<tr style="background:#fafafa">
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">层级</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">角色</th>
+<th style="background:#f8f9fa;color:#333;font-weight:bold;padding:12px 15px;text-align:left;border-bottom:2px solid #007acc;white-space:nowrap;min-width:100px">核心贡献</th>
+</tr>
+</thead>
+<tbody><tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">入口层</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">WG Serving (GIE)</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">统一流量入口与接口规范</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">控制层</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">KServe</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">Kubernetes 原生部署与管理</td>
+</tr>
+<tr style="background:#ffffff">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">调度层</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">llm-d</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">前缀缓存感知的分布式推理调度</td>
+</tr>
+<tr style="background:#fafafa">
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">执行层</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">vLLM</td>
+<td style="padding:10px 15px;border-bottom:1px solid #eee;white-space:nowrap;min-width:80px">高性能、低成本推理引擎</td>
+</tr>
+</tbody></table></p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;">结论：</strong>
+这套“四件套”标志着大模型推理进入标准化与可组合时代。未来趋势将聚焦于：</p>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• API 规范化（OpenAI / OpenInference）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 缓存分层与共享化</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 控制面与数据面解耦</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 云原生平台一体化编排</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">总结</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">云原生大模型推理“四件套”——KServe、vLLM、llm-d、WG Serving——正在推动推理体系的标准化、模块化与生态融合。通过分层协作与标准接口，开发者可实现高性能、低成本、可观测的大语言模型推理服务，助力 AI 原生架构的落地与创新。</p>
+<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
+<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">更多精彩内容</strong><br/>
+🌐 个人网站：jimmysong.io<br/>
+🎥 Bilibili：space.bilibili.com/31004924<br/>
+如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</p>
+</blockquote>
+
+
+<p><a href="https://jimmysong.io/blog/cloud-native-llm-inference-stack/">阅读原文</a></p>
+<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=2dcc8455&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650172755%26idx%3D1%26sn%3D8e96b88d868acc384e2de9a1a9c8c103">跳转微信打开</a></p>
+]]></content:encoded>
+      <pubDate>Fri, 14 Nov 2025 11:26:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>在 React 中快速搭建 AI 聊天界面</title>
+      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650172755&amp;idx=2&amp;sn=c28d638996d7265b06e22dc0c5eb372a</link>
+      <description>一个基于 TypeScript 与 React 的可定制聊天界面组件库，旨在快速构建 AI 助手与对话界面。</description>
+      <content:encoded><![CDATA[<p>
+<span>Jimmy Song</span> <span>2025-11-14 11:26</span> <span style="display: inline-block;">北京</span>
+</p>
+
+
+
+
+<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=9d23f43f&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcPQ6EZJN1dRibqKZibwDhRCvPHoZZS8L3f0SqWcM2ibiaicLr9icO6RY1ukXVOcheZKagQAAkUdUI2hiaFDQ%2F0%3Fwx_fmt%3Djpeg"/></p>
+
+<p>一个基于 TypeScript 与 React 的可定制聊天界面组件库，旨在快速构建 AI 助手与对话界面。</p>
+
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎关注「几米宋」微信公众号，这里专注分享 AI 前沿、云原生技术、开源生态、行业洞察与个人思考。更多精彩内容，欢迎访问我的个人网站 jimmysong.io。</p>
+<blockquote style=" margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18); margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18);  " data-wechat-blockquote-style="summary">
+<p style="margin:0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;margin-bottom:10px;border-radius:999px;background:#fbde8b;color:#4a3005;font-size:13px;font-weight:700;letter-spacing:0.35px;" data-wechat-summary-label="true">📄 文章摘要</span></p>
+<p style="margin:0 0 0.55em 0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;">一个基于 TypeScript 与 React 的可定制聊天界面组件库，旨在快速构建 AI 助手与对话界面。</p>
+</blockquote>
+
+<img alt="项目概况" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=e943f4ef&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcPQ6EZJN1dRibqKZibwDhRCvPfStKtaME6vEic3SwtV8AgibmYRxos5Chd7rCBF8Z6h4zsnvFmLFE8vlg%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">项目概况</p>
+<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
+<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">资源信息</strong><br/>🌐 网站：www.assistant-ui.com<br/>💻 GitHub：github.com/assistant-ui/assistant-ui<br/>✍️ 作者：Assistant UI</p>
+</blockquote>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">详细介绍</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Assistant-UI 是一个基于 TypeScript 与 React 的开源组件库，提供可定制的聊天界面组件与布局，专为构建智能体、AI 助手与对话式产品设计。它覆盖消息流、输入区、富媒体渲染、系统提示与插件扩展点，支持主题化与无障碍优化，便于与后端推理服务、模型网关或代理层集成，帮助团队快速搭建生产级聊天前端。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">主要特性</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 组件化：提供消息列表、消息项、输入框、工具栏等可组合组件，并支持自定义渲染器与样式覆盖。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 多模型支持：可与后端模型网关或路由层配合，便于在不同模型间切换与对比输出。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 插件扩展：内置插件点用于集成文件上传、富媒体渲染、工具调用与外部数据源。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 主题与可访问性：支持主题定制，遵循无障碍（a11y）最佳实践以便产品化交付。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">使用场景</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 快速搭建客服、产品助手或内部协作类聊天界面。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 将不同后端推理服务统一呈现给最终用户或团队成员。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 在产品原型阶段验证对话式交互与多模型策略效果。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 作为组件库嵌入低代码平台或企业内网应用中以加速落地。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">技术特点</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 基于 TypeScript + React 开发，具备类型安全与良好扩展性。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 提供可定制的消息解析与渲染流水线，便于实现富媒体与卡片样式展示。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 关注前端性能与构建体积，兼容现代打包与服务端渲染方案。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 采用 MIT 许可，社区贡献友好，便于二次开发与商业集成。</p>
+<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
+<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">更多精彩内容</strong><br/>
+🌐 个人网站：jimmysong.io<br/>
+🎥 Bilibili：space.bilibili.com/31004924<br/>
+如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</p>
+</blockquote>
+
+
+<p><a href="https://jimmysong.io/ai/assistant-ui">阅读原文</a></p>
+<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=01f6f73b&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650172755%26idx%3D2%26sn%3Dc28d638996d7265b06e22dc0c5eb372a">跳转微信打开</a></p>
+]]></content:encoded>
+      <pubDate>Fri, 14 Nov 2025 11:26:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>探索 Below — 回放并分析历史 Linux 指标</title>
+      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650172755&amp;idx=3&amp;sn=b44c507b45955818c489cedc03faee9a</link>
+      <description>一个面向现代 Linux 系统的时光旅行式资源监控工具。</description>
+      <content:encoded><![CDATA[<p>
+<span>Jimmy Song</span> <span>2025-11-14 11:26</span> <span style="display: inline-block;">北京</span>
+</p>
+
+
+
+
+<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=d6735a56&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcPQ6EZJN1dRibqKZibwDhRCvP5HA5xLnb9FzpmDs311Yz6rWWHB0YJoG36FdJqNvFAfsAjL94sEibLCQ%2F0%3Fwx_fmt%3Djpeg"/></p>
+
+<p>一个面向现代 Linux 系统的时光旅行式资源监控工具。</p>
+
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎关注「几米宋」微信公众号，这里专注分享 AI 前沿、云原生技术、开源生态、行业洞察与个人思考。更多精彩内容，欢迎访问我的个人网站 jimmysong.io。</p>
+<blockquote style=" margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18); margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18);  " data-wechat-blockquote-style="summary">
+<p style="margin:0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;margin-bottom:10px;border-radius:999px;background:#fbde8b;color:#4a3005;font-size:13px;font-weight:700;letter-spacing:0.35px;" data-wechat-summary-label="true">📄 文章摘要</span></p>
+<p style="margin:0 0 0.55em 0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;">一个面向现代 Linux 系统的时光旅行式资源监控工具。</p>
+</blockquote>
+
+<img alt="项目概况" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=d174ffc4&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcPQ6EZJN1dRibqKZibwDhRCvPNyqT3oVmaPnN4qhYCpibZWbZBVEbmaKC7rLqBj5Ggt22cyhXKZIOCAA%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">项目概况</p>
+<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
+<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">资源信息</strong><br/>🌐 网站：hub.docker.com/r/below/below<br/>💻 GitHub：github.com/facebookincubator/below<br/>✍️ 作者：Facebook Incubator</p>
+</blockquote>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">详细介绍</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Below 是一个针对现代 Linux 系统的“时光旅行”式资源监控工具，设计用于查看与记录系统运行时的历史数据。它支持实时（live）观察、记录（record）守护进程、以及回放（replay）历史快照，方便在事后对性能事件、资源使用趋势与 cgroup 层级进行深度分析。Below 将系统指标以可脚本化的格式导出，适合与现有监控生态（例如 Prometheus/Grafana）集成。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">主要特性</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 支持多种工作模式：<code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">live</code>（实时查看）、<code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">record</code>（持续记录）、<code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">replay</code>（回放历史）与 <code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">dump</code>（脚本友好输出，如 JSON/CSV/OpenMetrics）。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 能记录并重放系统级别的资源利用信息，包括进程、cgroup 层次结构与压力等待信息（PSI）。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 提供可复现的 snapshot 文件用于问题重现与离线分析。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 以 Rust 实现的高性能二进制，可通过包管理器或 Docker 镜像获取并部署。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">使用场景</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 现场故障调查：通过回放历史记录定位短暂或间歇性的问题。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 性能回归分析：记录基准运行并在不同时间点回放以比较指标差异。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 集群与容器监控：与 Prometheus/Grafana 集成，作为补充的事件回溯工具。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 自动化测试与基准：生成快照用于 CI 中的回放与验证。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">技术特点</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 主要用 Rust 开发，追求低开销与高可靠性。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 面向脚本化与可导出格式，支持 JSON、CSV 与 OpenMetrics 等输出。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 支持并依赖于现代 cgroup 与内核指标（注意：不支持 cgroupv1）。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 提供 Docker 镜像与多数主流发行版的软件包，便于在多种环境中部署与集成。</p>
+<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
+<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">更多精彩内容</strong><br/>
+🌐 个人网站：jimmysong.io<br/>
+🎥 Bilibili：space.bilibili.com/31004924<br/>
+如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</p>
+</blockquote>
+
+
+<p><a href="https://jimmysong.io/ai/below">阅读原文</a></p>
+<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=142b827c&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650172755%26idx%3D3%26sn%3Db44c507b45955818c489cedc03faee9a">跳转微信打开</a></p>
+]]></content:encoded>
+      <pubDate>Fri, 14 Nov 2025 11:26:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>CellARC：面向 ARC 风格任务的数据集生成与加载工具</title>
+      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650172755&amp;idx=4&amp;sn=429e531f4b02f4db53b6e7abbb82f278</link>
+      <description>一个用于生成、发布与加载 CellARC（基于元胞自动机任务）的开源数据集与工具链，支持 Hugging Face 快速下载与仿真可视化。</description>
+      <content:encoded><![CDATA[<p>
+<span>Jimmy Song</span> <span>2025-11-14 11:26</span> <span style="display: inline-block;">北京</span>
+</p>
+
+
+
+
+<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=09755b80&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcPQ6EZJN1dRibqKZibwDhRCvPGts7fMexJicrTTictP1HplBvLOibZUDYxv7fz4WkibrcMibTEibSOYrJhuWA%2F0%3Fwx_fmt%3Djpeg"/></p>
+
+<p>一个用于生成、发布与加载 CellARC（基于元胞自动机任务）的开源数据集与工具链，支持 Hugging Face 快速下载与仿真可视化。</p>
+
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎关注「几米宋」微信公众号，这里专注分享 AI 前沿、云原生技术、开源生态、行业洞察与个人思考。更多精彩内容，欢迎访问我的个人网站 jimmysong.io。</p>
+<blockquote style=" margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18); margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18);  " data-wechat-blockquote-style="summary">
+<p style="margin:0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;margin-bottom:10px;border-radius:999px;background:#fbde8b;color:#4a3005;font-size:13px;font-weight:700;letter-spacing:0.35px;" data-wechat-summary-label="true">📄 文章摘要</span></p>
+<p style="margin:0 0 0.55em 0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;">一个用于生成、发布与加载 CellARC（基于元胞自动机任务）的开源数据集与工具链，支持 Hugging Face 快速下载与仿真可视化。</p>
+</blockquote>
+
+<img alt="项目概况" style="max-width:100%;height:auto;margin:0.3em auto;display:block;text-align:center;" src="https://rss.koyangslash.workers.dev/img-proxy/?k=362f0e37&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcPQ6EZJN1dRibqKZibwDhRCvPbKN48TSz5ksBfGAEvxBicEyf8Vk39u1Ks6MBwAibv5Oban4icG71dozZA%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">项目概况</p>
+<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
+<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">资源信息</strong><br/>🌐 网站：cellarc.mireklzicar.com<br/>💻 GitHub：github.com/mireklzicar/cellarc<br/>✍️ 作者：Miroslav Lžičar</p>
+</blockquote>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">详细介绍</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">CellARC 是一个面向 ARC（Abstraction and Reasoning Corpus）风格的元胞自动机任务的数据集生成与加载工具链，项目作者将完整数据快照发布在 Hugging Face（例如 <code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">mireklzicar/cellarc_100k</code>）。该库提供便捷的 <code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">EpisodeDataset</code> 与 <code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">EpisodeDataLoader</code> API，用于下载、缓存与批处理数据，并内置可视化工具方便重现样例与分析任务难度。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">主要特性</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 数据集生成与快照：支持从 Hugging Face Hub 下载预构建快照，并提供 100k 的主数据集与固定的 100 条子集用于快速迭代。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 仿真与可视化：内置 CA（Cellular Automaton）回放与 episode 卡片显示函数，方便检查生成规则与样例表现。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 可选生成栈：通过 <code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">cellarc[all]</code> 启用基于 JAX/FLAX/CAX 的生成与模拟功能，支持更复杂的合成与采样流程。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">使用场景</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 机器学习与神经网络研究：作为元胞自动机任务的基准数据集用于模型训练与评估。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 算法测试与教材：用于教学、实验与基线对比，快速复现论文中的训练/评估流程。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 数据分析与可视化：研究数据分布、规则空间覆盖率与样例难度时的可靠工具。</p>
+<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">技术特点</span></h2>
+<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 轻量 Python API：<code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">EpisodeDataset.from_huggingface</code>、<code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">EpisodeDataLoader</code> 支持按需下载与缓存，便于集成现有训练流水线。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 灵活的数据布局：支持 JSONL 与 Parquet 两种格式，提供 <code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">data_files.json</code> 与 <code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">dataset_stats.json</code> 以便快速枚举分片与大小。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 与主流工具链兼容：基于 PyPI 包结构发布，可通过 <code style="background:undefined;color:#fb2590ff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">pip install cellarc</code> 使用，完整生成/仿真功能在 Python 3.11+ 环境下通过额外依赖启用。</p>
+<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
+<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">更多精彩内容</strong><br/>
+🌐 个人网站：jimmysong.io<br/>
+🎥 Bilibili：space.bilibili.com/31004924<br/>
+如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</p>
+</blockquote>
+
+
+<p><a href="https://jimmysong.io/ai/cellarc">阅读原文</a></p>
+<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=1f72c360&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650172755%26idx%3D4%26sn%3D429e531f4b02f4db53b6e7abbb82f278">跳转微信打开</a></p>
+]]></content:encoded>
+      <pubDate>Fri, 14 Nov 2025 11:26:00 +0800</pubDate>
+    </item>
     <item>
       <title>Ingress NGINX 退役，云原生基础设施如何应对技术债与迁移挑战？</title>
       <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650172705&amp;idx=1&amp;sn=b1409a73fe5a822a748351e459c7eab6</link>
@@ -591,148 +1040,6 @@
 <p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=16c84e9b&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650172377%26idx%3D4%26sn%3Df281be9be0c46ac74bc081a4606cfaae">跳转微信打开</a></p>
 ]]></content:encoded>
       <pubDate>Mon, 10 Nov 2025 16:32:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>提醒｜第十届中国开源年会议题提交今晚截止，讲师报名从速</title>
-      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650171965&amp;idx=1&amp;sn=c4156f90b63ada01a7ee4f1e694fd144</link>
-      <description>COSCon’25 云原生开源论坛征集议题：面向 AI 时代的云原生与大模型基础设施、GPU 调度、MLOps、可观测性等实战分享。会期 2025-12-6~7，北京；投稿截止 2025-11-9。</description>
-      <content:encoded><![CDATA[<p>
-原创 <span>Jimmy Song</span> <span>2025-11-09 11:19</span> <span style="display: inline-block;">北京</span>
-</p>
-
-
-
-
-<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=e80abdf9&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcNgHqfCSDYUErNc3fQrgNxmtLHu1dDeW91Z4qcBkiau6KwPRzwPmAtu8JtQalB60XxibdgGYPgUpWqw%2F0%3Fwx_fmt%3Djpeg"/></p>
-
-<p>COSCon’25 云原生开源论坛征集议题：面向 AI 时代的云原生与大模型基础设施、GPU 调度、MLOps、可观测性等实战分享。会期 2025-12-6~7，北京；投稿截止 2025-11-9。</p>
-
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">欢迎关注「几米宋」微信公众号，这里专注分享 AI 前沿、云原生技术、开源生态、行业洞察与个人思考。更多精彩内容，欢迎访问我的个人网站 jimmysong.io。</span></p><blockquote style="margin: 20px 0px;padding: 14px 18px;background: linear-gradient(135deg, rgb(255, 246, 218) 0%, rgb(255, 250, 240) 100%);border-width: 1px;border-style: solid;border-color: rgb(248, 201, 107);border-radius: 16px;color: rgb(90, 59, 11);font-size: 16px;line-height: 1.7;box-shadow: rgba(248, 201, 107, 0.18) 0px 8px 20px;"><p style="margin:0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;margin-bottom:10px;border-radius:999px;background:#fbde8b;color:#4a3005;font-size:13px;font-weight:700;letter-spacing:0.35px;" data-wechat-summary-label="true"><span leaf="">📄 文章摘要</span></span></p><p style="margin:0 0 0.55em 0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;"><span leaf="">COSCon’25 云原生开源论坛征集议题：面向 AI 时代的云原生与大模型基础设施、GPU 调度、MLOps、可观测性等实战分享。会期 2025-12-6~7，北京；投稿截止 2025-11-9 晚。</span></p></blockquote><blockquote style="margin: 18px 0px;padding: 14px 18px;background: linear-gradient(135deg, rgba(233, 240, 255, 0.64), rgba(247, 250, 255, 0.92));border-width: 1px 1px 1px 4px;border-style: solid;border-color: rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgb(63, 123, 255);border-radius: 10px;color: rgb(31, 42, 68);font-size: 15px;line-height: 1.7;box-shadow: rgba(20, 40, 80, 0.08) 0px 2px 8px;"><p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">Open Source, Open Intelligence｜第十届中国开源年会 COSCon’25</span></strong></p><p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;"><span leaf="">📅 时间：2025 年 12 月 6-7 日</span><span leaf=""><br/></span><span leaf=""> 📍 地点：北京 · 丽亭华苑酒店</span><span leaf=""><br/></span><span leaf=""> 🔗 议题征集截止：2025 年 11 月 9 日（周日）</span><span leaf=""><br/></span><span leaf=""> 📝 提交入口：<a href="https://www.bagevent.com/event/speechApply/8199016" target="_blank">https://www.bagevent.com/event/speechApply/8199016</a></span></p><p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;"><span leaf=""> 🎡 大会官网：</span><span leaf=""><a href="https://www.bagevent.com/event/8199016" target="_blank">https://www.bagevent.com/event/8199016</a></span></p></blockquote><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">🌩️ 云原生开源论坛：AI 时代的基础设施再定义</span></strong></span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">在 AI 重塑世界的今天，云原生技术正在从“容器与编排”走向“智能与自治”。</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">它不再只是支撑业务的底座，而成为连接算力、模型、数据与应用的关键枢纽。</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">当 AI 原生遇上云原生，我们将迎来怎样的新范式？</span></strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 如何让大模型运行在更高效、更智能的云原生基础设施上？</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• Kubernetes、Service Mesh、Serverless、Observability 等关键技术在 AI Infra 中如何演进？</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 从训练到推理，从 GPU 调度到多租户隔离，AI 时代的云原生技术边界在哪里？</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 开源社区如何共建 AI 基础设施生态，推动云原生与 AI 的融合创新？</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">这些问题，正等待你的洞察与实践经验来回答。</span></p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">💡 我们期待你的议题</span></strong></span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">无论你来自企业、开源项目、社区还是高校，只要你：</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 深耕云原生、AI Infra、MLOps、边缘计算、分布式系统；</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 在实践中探索了云原生与 AI 融合的最佳实践；</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 致力于推动云原生开源生态的技术创新与社区共建；</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">都欢迎提交你的分享！</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">🎤 </span><strong style="color:#007acc;font-weight:bold;"><span leaf="">议题类型参考：</span></strong></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• AI 原生基础设施设计与实现</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• GPU 调度、算力编排与性能优化</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 云原生 AI 平台建设（Kubernetes + AI）</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 微服务与大模型服务化</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 云原生可观测性与智能运维</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 数据基础设施与向量数据库实践</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• 社区开源项目治理与生态建设</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;"><span leaf="">• AI Agent、LangGraph、ModelOps 等前沿探索</span></p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">🤝 关于论坛</span></strong></span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">云原生开源论坛</span></strong><span leaf=""> 由 云原生社区（Cloud Native Community）与开源社联合出品，</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">是第十届中国开源年会 COSCon’25 的重要专题之一。</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">论坛由 </span><strong style="color:#007acc;font-weight:bold;"><span leaf="">宋净超（Jimmy Song）</span></strong><span leaf=""> 担任执行出品人，</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">将汇聚来自云原生、AI Infra、DevOps、MLOps 等领域的顶级专家与社区领袖，</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">共同探讨 </span><strong style="color:#007acc;font-weight:bold;"><span leaf="">“AI 时代的云原生重构”</span></strong><span leaf=""> ——</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">从基础设施到智能化，从架构到生态，共绘开源未来蓝图。</span></p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">🗓️ 重要日期</span></strong></span></h2><p style="text-align: center;" nodeleaf=""><img data-imgfileid="502688316" class="rich_pages wxw-img" data-ratio="0.3574074074074074" data-s="300,640" data-type="png" data-w="1080" type="block" src="https://rss.koyangslash.workers.dev/img-proxy/?k=507244a7&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcNcq25khxdINZ8nPUsBbFMhldibKQ3sjgozeZh8C6yusRkp2KURyKr7MuQWh1TGsNIJ97MXK2Ymvlg%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg"/></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">📍 活动地点：北京市海淀区 · 丽亭华苑酒店</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">🧭 年会主题：「众智开源｜Open Source, Open Intelligence」</span></p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">❤️ 一起共建「众智开源」</span></strong></span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">这不仅是一场技术盛会，更是一场开源人的心跳共振。</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">我们期待看到每一位云原生与 AI 从业者、布道者、实践者的身影，</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">让 </span><strong style="color:#007acc;font-weight:bold;"><span leaf="">“人类智慧 + 机器智能”</span></strong><span leaf=""> 的共创能量，在开源生态中持续闪光。</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">扫描二维码或点击下方链接，即刻提交你的议题：</span></p><p nodeleaf=""><img style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" alt="议题提交二维码" class="rich_pages wxw-img" data-ratio="1" data-type="jpeg" data-w="256" src="https://rss.koyangslash.workers.dev/img-proxy/?k=97107999&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcNgHqfCSDYUErNc3fQrgNxmYFpR4vicsYMBXaVIGYvdqMeCVzhn4bc4qYkUFy2NEk06M5rkW613OVg%2F640%3Fwx_fmt%3Djpeg"/></p><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;"><span leaf="">议题提交二维码</span></p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;"><span leaf="">👉 <a href="https://www.bagevent.com/event/speechApply/8199016" target="_blank">https://www.bagevent.com/event/speechApply/8199016</a></span></p><blockquote style="margin: 18px 0px;padding: 14px 18px;background: linear-gradient(135deg, rgba(233, 240, 255, 0.64), rgba(247, 250, 255, 0.92));border-width: 1px 1px 1px 4px;border-style: solid;border-color: rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgb(63, 123, 255);border-radius: 10px;color: rgb(31, 42, 68);font-size: 15px;line-height: 1.7;box-shadow: rgba(20, 40, 80, 0.08) 0px 2px 8px;"><p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">第十届中国开源年会 COSCon’25</span></strong></p><p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;"><span leaf="">由开源社主办 与 20+ 开源社区联合出品 2025 年 12 月 6 - 7 日，北京见！</span></p></blockquote><blockquote style="margin: 18px 0px;padding: 14px 18px;background: linear-gradient(135deg, rgba(233, 240, 255, 0.64), rgba(247, 250, 255, 0.92));border-width: 1px 1px 1px 4px;border-style: solid;border-color: rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgb(63, 123, 255);border-radius: 10px;color: rgb(31, 42, 68);font-size: 15px;line-height: 1.7;box-shadow: rgba(20, 40, 80, 0.08) 0px 2px 8px;"><p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;"><span leaf="">更多精彩内容</span></strong><span leaf=""><br/></span><span leaf=""> 🌐 个人网站：jimmysong.io</span><span leaf=""><br/></span><span leaf=""> 🎥 Bilibili：space.bilibili.com/31004924</span><span leaf=""><br/></span><span leaf=""> 如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</span></p></blockquote><p style="display: none;"><mp-style-type data-value="10000"></mp-style-type></p>
-
-
-<p><a href="https://www.bagevent.com/event/speechApply/8199016">阅读原文</a></p>
-<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=17915442&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650171965%26idx%3D1%26sn%3Dc4156f90b63ada01a7ee4f1e694fd144">跳转微信打开</a></p>
-]]></content:encoded>
-      <pubDate>Sun, 09 Nov 2025 11:19:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Istio 1.28 对 LLM 推理基础设施的影响</title>
-      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650171774&amp;idx=1&amp;sn=3611a99ea3464f808983e9df16dc916c</link>
-      <description>Istio 1.28 深入解析：通过 InferencePool、Ambient Multicluster、nftables 与 Dual‑stack，提升 LLM 推理基础设施的可观测性、可靠性与高并发网络性能。</description>
-      <content:encoded><![CDATA[<p>
-原创 <span>Jimmy Song</span> <span>2025-11-07 12:18</span> <span style="display: inline-block;">北京</span>
-</p>
-
-
-
-
-<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=236ef583&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcMhu7NMBoj0ljXtJmYaexPy4AajLq3ia6FibBialsMa3zOAOoDXaYCQI0CVYIEqhO8hiaba6cDtRiaN1Qg%2F0%3Fwx_fmt%3Djpeg"/></p>
-
-<p>Istio 1.28 深入解析：通过 InferencePool、Ambient Multicluster、nftables 与 Dual‑stack，提升 LLM 推理基础设施的可观测性、可靠性与高并发网络性能。</p>
-
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎关注「几米宋」微信公众号，这里专注分享 AI 前沿、云原生技术、开源生态、行业洞察与个人思考。更多精彩内容，欢迎访问我的个人网站 jimmysong.io。</p><blockquote style="margin: 20px 0px;padding: 14px 18px;background: linear-gradient(135deg, rgb(255, 246, 218) 0%, rgb(255, 250, 240) 100%);border-width: 1px;border-style: solid;border-color: rgb(248, 201, 107);border-radius: 16px;color: rgb(90, 59, 11);font-size: 16px;line-height: 1.7;box-shadow: rgba(248, 201, 107, 0.18) 0px 8px 20px;" data-wechat-blockquote-style="summary">
-<p style="margin:0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;margin-bottom:10px;border-radius:999px;background:#fbde8b;color:#4a3005;font-size:13px;font-weight:700;letter-spacing:0.35px;" data-wechat-summary-label="true">📄 文章摘要</span></p>
-<p style="margin:0 0 0.55em 0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;">Istio 1.28 深入解析：通过 InferencePool、Ambient Multicluster、nftables 与 Dual‑stack，提升 LLM 推理基础设施的可观测性、可靠性与高并发网络性能。</p>
-</blockquote><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">最近几个月笔者一直在学习和关注 AI 原生领域，对 Istio 的关注度有所下降，不过昨天看到 Istio 1.28 发布，让我对其重新燃起了兴趣。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">随着企业大规模部署 <strong style="color:#007acc;font-weight:bold;">LLM 在线推理服务（vLLM、TGI、SGLang、llama.cpp 等）</strong>，网络层的需求从“传统微服务治理”迈向“高吞吐、强一致性、高可观测的 AI 推理数据平面”。
- Istio 1.28 正式发布后，我们首次看到 <strong style="color:#007acc;font-weight:bold;">Service Mesh 开始为大模型推理提供“原生能力支持”</strong>。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这一点对 AI Infra 架构师来说意义很大：
- → <strong style="color:#007acc;font-weight:bold;">Service Mesh 不再只是微服务治理，而是 LLM 推理平台的基础设施之一。</strong></p><blockquote style="margin: 18px 0px;padding: 14px 18px;background: linear-gradient(135deg, rgba(233, 240, 255, 0.64), rgba(247, 250, 255, 0.92));border-width: 1px 1px 1px 4px;border-style: solid;border-color: rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgb(63, 123, 255);border-radius: 10px;color: rgb(31, 42, 68);font-size: 15px;line-height: 1.7;box-shadow: rgba(20, 40, 80, 0.08) 0px 2px 8px;" data-wechat-blockquote-style="default">
-<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;">Service Mesh 正在成为 AI 推理基础设施的关键一环。Istio 1.28 的原生 LLM 支持，标志着微服务网络层正式迈入 AI 时代。</p>
-</blockquote><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">文章导读</span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">本文将系统解析 Istio 1.28 对大语言模型（LLM, Large Language Model）推理基础设施的关键影响，涵盖 InferencePool、Ambient Multicluster、nftables、Dual-stack 及可观测性与安全增强等方面。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">主要内容包括：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• InferencePool v1：Service Mesh 首次原生拥抱 AI 推理</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• Ambient Multicluster：跨 GPU 网络的 L7 治理能力</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• nftables 支持：面向高并发推理的现代网络能力</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• Dual-stack：IPv6 时代的大模型集群</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 可观测性与安全增强</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 一张图看懂：Istio 在 LLM 推理集群中的位置</p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">InferencePool v1：Service Mesh 正式进入 AI 推理时代</span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Istio 1.28 最值得关注的更新是 Gateway API Inference Extension → InferencePool v1 正式稳定。对于 LLM 推理基础设施来说，这是一次“质变”而不是“量变”。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">推理流量在企业实际部署中面临诸多挑战：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 多模型版本灰度路由（如 v1/v2）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 异构 GPU 集群负载均衡（A100、H20、Mi300）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 多副本推理池生命周期管理</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 推理节点不稳定（OOM、H2 连接断裂）自动摘除</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 远端 GPU 集群（独立 VPC）网络治理困难</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这些问题原本需要在业务侧、推理平台、Ingress、Gateway、Operator 等多处分散实现，导致架构复杂且运维成本高。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">InferencePool 的引入，让 GPU 推理节点成为服务网格的一级资源。Istio 1.28 带来的能力包括：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 模型推理端点统一抽象（Endpoint Pool）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 智能负载均衡（版本、健康、延迟）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 跨多集群 / 多 GPU 资源池的智能调度</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 自动 failover（掉卡、OOM 自动摘除）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 与 Gateway API 原生集成（稳定 API）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">InferencePool 对 LLM 推理的意义，相当于 DestinationRule 对微服务的意义，只是规模更大、策略更复杂。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下面这张流程图展示了 InferencePool 的技术机制：</p><img alt="InferencePool 推理流量调度机制" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-type="png" data-w="1080" data-ratio="0.29444444444444445" src="https://rss.koyangslash.workers.dev/img-proxy/?k=a1cf0aa2&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcMhu7NMBoj0ljXtJmYaexPyIl33hVEaMAmCSmyZ0aUQbZsUy8xVibTCZHQicHnCcowDn65OJE0ia6Qbw%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">InferencePool 推理流量调度机制</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这让 Istio 成为 LLM 推理平台的统一入口，无论底层是 vLLM、TGI、SGLang、llama.cpp 还是专有 GPU Inference Engine。对于 AI Infra 团队来说，这是非常关键的演进。</p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">Ambient Multicluster：跨 GPU 网络的 L7 推理治理</span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">LLM 推理集群通常分布在不同的网络环境中，例如：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• GPU 专区（高带宽、独立子网/VPC）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• CPU + RAG + VectorDB 在另一个网络</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 多数据中心的推理池</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Istio 1.28 的 Ambient Multicluster 带来了两个关键能力：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 推理池可以部署在任何网络</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 应用侧不需要 Sidecar 也能享受完整 L7 策略</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• GPU 集群可以独立部署，不影响主网</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">此外，L7 Outlier Detection 也可跨网络生效：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 某个 GPU Pod 推理延迟升高（显存碎片化、请求排队过深）会自动摘除</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• TGI/vLLM 产生错误（OOM、H2Error）会自动 failover</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 异地推理副本延迟过大会自动降权</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">对于 LLM 在线推理系统来说，这种自愈性至关重要。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Ambient Multicluster 对 AI Infra 的意义在于：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 高延迟敏感</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 副本状态不稳定（大模型容易 OOM、连接断）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• GPU 资源昂贵，需要细粒度调度</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 多机推理越来越普遍（Mixture-of-Experts、Tensor Parallelism）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Ambient Multicluster 带来了网络层自治能力。</p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">nftables 支持：面向高并发 LLM 推理的现代网络框架</span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">LLM 推理的典型负载包括：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 长连接（HTTP/2、gRPC）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 大流量（prompt/data 输出 token）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 高频短调用（embedding）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">iptables 在高并发场景下容易出现：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 大规模规则性能下降</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 规则难维护</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• Conntrack 插件在大模型流量下有瓶颈</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Istio 1.28 在 Ambient 模式下正式支持 nftables 原生模式。这带来了更快的规则匹配、更好的并发性能，更适合大模型长连接场景。对于大规模推理集群来说，这是非常明显的性能收益。</p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">Dual-stack Beta：IPv6 时代的大模型推理网络</span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">许多算力中心（如国产 GPU 集群、AI 机房）已开始部署 IPv6 网络。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">大模型推理对 IP 地址的需求远超传统微服务：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• GPU 节点地址空间巨大</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 多机训练与推理节点密度高</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 长连接数量巨大（每用户一个 token 流）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Istio 1.28 将 Dual-stack 升级到 Beta，带来：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• IPv4/IPv6 同时支持</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 流量治理逻辑全量适配</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 适用于大型数据中心的 LLM 推理平台</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这是一种基础设施级别的进化。</p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">可观测性与安全增强：对 AI 推理平台的价值</span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">B3 + W3C Trace 双协议适用于如下场景：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• LLM → RAG → VectorDB → Cache → User 的完整调用链。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">特别适合构建：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 全链路 token-level 调用追踪</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• Prompt-based Latency Profiling</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 模型版本对比分析</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">BackendTLSPolicy v1 用于：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 调用外部大模型（Gemini、OpenAI、AWS Bedrock）</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 配置更严格的 TLS</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">JWT 自定义 claim 支持适合企业内部：</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 基于模型版本 / 模型能力的权限管控</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• “谁可以访问哪个模型”的精细访问控制</p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">一张图看懂：Istio 在 LLM 推理基础设施中的位置</span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">下图展示了 Istio 在 LLM 推理基础设施中的整体架构关系：</p><img alt="Istio 在 LLM 推理基础设施中的位置" style="max-width: 100%;margin: 0.3em auto;display: block;text-align: center;height: auto !important;" data-type="png" data-w="1080" data-ratio="1.9953703703703705" src="https://rss.koyangslash.workers.dev/img-proxy/?k=2dd20e63&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuH1hdj5dlcMhu7NMBoj0ljXtJmYaexPyvhUBY58uSVL8pibSr0xWKA3caibuhFHKGCfia4qBadGb2iaay0etJB81Eg%2F640%3Fwx_fmt%3Dpng"/><p style="font-size:12px;color:#666;text-align:center;margin:0.2em 0 0.3em 0;font-style:italic;">Istio 在 LLM 推理基础设施中的位置</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">这体现了一个新的事实：在 AI 时代，Istio 不仅治理微服务，也成为治理 LLM 推理服务的统一数据平面。</p><h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">总结</span></h2><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Istio 1.28 的发布，标志着 Service Mesh 正在从微服务时代的网络层升级为 AI 推理时代的算力网络层。InferencePool v1 的推出极大增强了 AI 推理基础设施，Ambient Multicluster 简化了 GPU 专用网络管理，nftables 与 dual-stack 等能力则提升了平台的可扩展性。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">如果你正在构建企业级 LLM 推理平台、多集群 GPU 调度系统、高可用 RAG 平台或边云协同的模型服务，Istio 1.28 是必须关注的重要版本。</p><blockquote style="margin: 18px 0px;padding: 14px 18px;background: linear-gradient(135deg, rgba(233, 240, 255, 0.64), rgba(247, 250, 255, 0.92));border-width: 1px 1px 1px 4px;border-style: solid;border-color: rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgba(63, 123, 255, 0.18) rgb(63, 123, 255);border-radius: 10px;color: rgb(31, 42, 68);font-size: 15px;line-height: 1.7;box-shadow: rgba(20, 40, 80, 0.08) 0px 2px 8px;" data-wechat-blockquote-style="default">
-<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">更多精彩内容</strong><br/>
-🌐 个人网站：jimmysong.io<br/>
-🎥 Bilibili：space.bilibili.com/31004924<br/>
-如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</p>
-</blockquote><p style="display: none;"><mp-style-type data-value="10000"></mp-style-type></p>
-
-
-<p><a href="https://jimmysong.io/blog/istio-llm-inference/">阅读原文</a></p>
-<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=c894b2e0&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650171774%26idx%3D1%26sn%3D3611a99ea3464f808983e9df16dc916c">跳转微信打开</a></p>
-]]></content:encoded>
-      <pubDate>Fri, 07 Nov 2025 12:18:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>试试 Blinko：在本地用 AI 管理卡片笔记</title>
-      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650171774&amp;idx=2&amp;sn=aeabf4d29dd60a3724b29858f0b96ba4</link>
-      <description>Blinko 是一款开源的自托管 AI 卡片笔记工具，强调隐私与快速检索。</description>
-      <content:encoded><![CDATA[<p>
-<span>Jimmy Song</span> <span>2025-11-07 12:18</span> <span style="display: inline-block;">北京</span>
-</p>
-
-
-
-
-<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=ba37b914&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcMhu7NMBoj0ljXtJmYaexPyKB4AW3jibDfqic1ruwdicgvYwbvF1tGtiaExFtFgFZQ0icdcyMHUpbDbtBg%2F0%3Fwx_fmt%3Djpeg"/></p>
-
-<p>Blinko 是一款开源的自托管 AI 卡片笔记工具，强调隐私与快速检索。</p>
-
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎关注「几米宋」微信公众号，这里专注分享 AI 前沿、云原生技术、开源生态、行业洞察与个人思考。更多精彩内容，欢迎访问我的个人网站 jimmysong.io。</p>
-<blockquote style=" margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18); margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18);  " data-wechat-blockquote-style="summary">
-<p style="margin:0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;margin-bottom:10px;border-radius:999px;background:#fbde8b;color:#4a3005;font-size:13px;font-weight:700;letter-spacing:0.35px;" data-wechat-summary-label="true">📄 文章摘要</span></p>
-<p style="margin:0 0 0.55em 0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;">Blinko 是一款开源的自托管 AI 卡片笔记工具，强调隐私与快速检索。</p>
-</blockquote>
-
-<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">详细介绍</span></h2>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">Blinko 是一款面向个人知识管理的开源卡片笔记应用，支持本地/自托管部署并以隐私为优先。Blinko 结合检索增强生成（RAG, Retrieval-Augmented Generation）和大语言模型（LLM, Large Language Model）能力，允许用户用自然语言快速检索、生成与组织笔记，同时将数据保存在用户控制的环境中，适合注重数据所有权的个人与团队使用。</p>
-<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">主要特性</span></h2>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• AI 驱动的笔记检索与增强，支持自然语言查询与语义搜索。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 数据自托管，配置与存储可在用户控制的环境中运行以保护隐私。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 轻量跨平台，基于 Tauri 支持 macOS、Windows、Linux 与移动端部署。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 开源协作：社区贡献、文档与在线演示（Demo）可直接使用。</p>
-<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">使用场景</span></h2>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">适用于要捕捉零碎想法并希望通过语义检索快速访问笔记的个人或团队。可作为个人知识库、写作草稿管理、会议记录归档或与 RAG 流程集成的轻量笔记后端；也可用于离线或自托管的隐私优先工作流。</p>
-<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">技术特点</span></h2>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 模型兼容性：可接入 OpenAI/Anthropic 等主流模型用于增强检索与生成。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 存储与索引：支持将文本以 Markdown 存储并建立语义索引以加速查询。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 部署便捷：提供 Docker 快速部署脚本与本地开发说明。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 现代前端栈：基于 Next.js、React 与 Tauri 构建，便于扩展与本地体验优化。</p>
-<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
-<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">更多精彩内容</strong><br/>
-🌐 个人网站：jimmysong.io<br/>
-🎥 Bilibili：space.bilibili.com/31004924<br/>
-如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</p>
-</blockquote>
-
-
-<p><a href="https://jimmysong.io/ai/blinko/">阅读原文</a></p>
-<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=c083b67a&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650171774%26idx%3D2%26sn%3Daeabf4d29dd60a3724b29858f0b96ba4">跳转微信打开</a></p>
-]]></content:encoded>
-      <pubDate>Fri, 07 Nov 2025 12:18:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>试试 DocuTranslate：一体化文件翻译管线工具</title>
-      <link>https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&amp;mid=2650171774&amp;idx=3&amp;sn=1067d12cd1bf3f11da8ffc19f22e6074</link>
-      <description>DocuTranslate 是一款基于大语言模型的轻量化文档翻译工具，支持多种文档格式与本地/在线解析引擎。</description>
-      <content:encoded><![CDATA[<p>
-<span>Jimmy Song</span> <span>2025-11-07 12:18</span> <span style="display: inline-block;">北京</span>
-</p>
-
-
-
-
-<p><img src="https://rss.koyangslash.workers.dev/img-proxy/?k=f22e6794&amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FuH1hdj5dlcMhu7NMBoj0ljXtJmYaexPyMVqdjFe4eYxvSjxeIlaPxNwJCjUmedS1a9auHdnUwdPVlwUZVb38Qw%2F0%3Fwx_fmt%3Djpeg"/></p>
-
-<p>DocuTranslate 是一款基于大语言模型的轻量化文档翻译工具，支持多种文档格式与本地/在线解析引擎。</p>
-
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">欢迎关注「几米宋」微信公众号，这里专注分享 AI 前沿、云原生技术、开源生态、行业洞察与个人思考。更多精彩内容，欢迎访问我的个人网站 jimmysong.io。</p>
-<blockquote style=" margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18); margin:20px 0;padding:14px 18px;background:linear-gradient(135deg,#fff6da 0%,#fffaf0 100%);border:1px solid #f8c96b;border-radius:16px;color:#5a3b0b;font-size:16px;line-height:1.7;box-shadow:0 8px 20px rgba(248,201,107,0.18);  " data-wechat-blockquote-style="summary">
-<p style="margin:0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;"><span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;margin-bottom:10px;border-radius:999px;background:#fbde8b;color:#4a3005;font-size:13px;font-weight:700;letter-spacing:0.35px;" data-wechat-summary-label="true">📄 文章摘要</span></p>
-<p style="margin:0 0 0.55em 0;font-size:15px;line-height:1.7;color:inherit;margin:0 0 0.6em 0;font-size:15px;line-height:1.7;color:inherit;margin-bottom:0;">DocuTranslate 是一款基于大语言模型的轻量化文档翻译工具，支持多种文档格式与本地/在线解析引擎。</p>
-</blockquote>
-
-<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">详细介绍</span></h2>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">DocuTranslate 是一款面向文件翻译场景的轻量化工具，结合大语言模型（LLM, Large Language Model）与多种文档解析引擎，提供从文件解析、语义翻译到导出的一体化流水线。它支持 PDF、DOCX、XLSX、JSON、EPUB、SRT 等常见格式，并通过可选的本地 <code style="background:undefined;color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">docling</code> 引擎或在线 <code style="background:undefined;color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">minerU</code> 引擎完成 PDF 解析，满足离线与在线两种部署需求。</p>
-<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">主要特性</span></h2>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 多格式支持：pdf、docx、xlsx、md、json、epub、srt 等，保留表格与公式结构。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 可选解析引擎：在线 <code style="background:undefined;color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">minerU</code>（免安装）与本地 <code style="background:undefined;color:#ff168bff;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;line-height:1.4;white-space: pre-wrap;word-break: break-all">docling</code>（适合离线/高隐私场景）。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 工作流化设计：基于可配置的 Workflow 抽象，按文件类型选择转换→翻译→导出流程。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• Web UI 与 API：内置交互式 Web 界面和 REST API，便于本地部署与集成。</p>
-<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">使用场景</span></h2>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.8em 0;text-align:left;">适用于学术论文、技术文档、小说或字幕等多种文档的自动化翻译场景。团队可在本地或内网部署服务，利用流水线将原始文件批量转换为 Markdown/HTML 并导出翻译结果；个人用户也可使用发布的独立包或在线 Demo 快速试用。</p>
-<h2 style="margin:28px 0 16px 0;text-align:center;display:block;"><span data-wechat-heading-inner="true" style="display:inline-block;padding:6px 16px 8px 16px;border-bottom:3px solid #3f7bff;font-size:clamp(17px,4vw,21px);font-weight:700;color:#1c2640;line-height:1.35;letter-spacing:0.24px;background:rgba(63,123,255,0.07);border-radius:10px;">技术特点</span></h2>
-<p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 多 AI 平台兼容：可接入 OpenAI、Zhipu、Qwen 等主流平台以执行翻译任务。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 异步与并发：设计支持异步翻译与并发处理，适合大规模文档场景。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 可扩展导出：支持导出为 HTML、Markdown、ZIP、DOCX 等格式，便于后续编辑与发布。</p><p style="font-size:16px;line-height:1.6;color:#333;margin:0.1em 0;padding-left:0px;text-align:left;">• 本地优先：提供 Docker 与本地二进制包，结合本地索引与缓存机制减少重复解析开销。</p>
-<blockquote style="margin:18px 0;padding:14px 18px;background:linear-gradient(135deg,rgba(233,240,255,0.64),rgba(247,250,255,0.92));border:1px solid rgba(63,123,255,0.18);border-left:4px solid #3f7bff;border-radius:10px;color:#1f2a44;font-size:15px;line-height:1.7;box-shadow:0 2px 8px rgba(20,40,80,0.08);" data-wechat-blockquote-style="default">
-<p style="margin:0 0 0.5em 0;font-size:15px;line-height:1.7;color:inherit;margin-top:0;margin-bottom:0;"><strong style="color:#007acc;font-weight:bold;">更多精彩内容</strong><br/>
-🌐 个人网站：jimmysong.io<br/>
-🎥 Bilibili：space.bilibili.com/31004924<br/>
-如果这篇文章对你有帮助，欢迎点赞、分享给更多朋友！</p>
-</blockquote>
-
-
-<p><a href="https://jimmysong.io/ai/docutranslate/">阅读原文</a></p>
-<p><a href="https://rss.koyangslash.workers.dev/link-proxy/?k=a999c811&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzIwNDIzODExOA%3D%3D%26mid%3D2650171774%26idx%3D3%26sn%3D1067d12cd1bf3f11da8ffc19f22e6074">跳转微信打开</a></p>
-]]></content:encoded>
-      <pubDate>Fri, 07 Nov 2025 12:18:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
