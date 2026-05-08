@@ -14,6 +14,14 @@
   "items": [
     {
       "id": "",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTk1NDQ4Ng==\u0026mid=2247486650\u0026idx=1\u0026sn=17c57cf479f536730d9f33de9ac82f75",
+      "title": "多人+多Agent如何协作？",
+      "summary": "管理任务而不是监督Agent，更不是监督Agent写代码，虽然出现了很多类 Linear和类Slack产品，但现阶段Linear作为人机协作中枢，是同类产品体验最好的。\n当团队同时有多个 Agent 在跑任务，谁在做什么、做到哪了、卡住了没有？人与 agent之间、agent 和 agent 之间、人与人之间，缺少一个共同的协作界面，Linear 也许是现阶段最好的载体，结合下面两个协议。\nAgent Trace（可观测）: https://agent-trace.dev/\nAgent Interaction Guidelines（主动式Agent）: https:// linear.app/developers/aig\n\n当然最激进的symphony基本把人排除出去了。\n\n👇把下面文档丢给codex或者claude code，可以直接构建出多人+多Agent协作工具原型：https://github.com/openai/symphony/blob/main/SPEC.md",
+      "date_published": "2026-05-08T21:10:08+08:00",
+      "date_modified": "2026-05-08T21:10:08+08:00"
+    },
+    {
+      "id": "",
       "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTk1NDQ4Ng==\u0026mid=2247486639\u0026idx=1\u0026sn=aaf89ae6f3df6a9e9000bc93be436bc7",
       "title": "刚刚！SpaceX宣布收购Cursor！",
       "summary": "SpaceX 官方刚宣布了这项合作，恭喜Cursor能够成功退出，现在code领域神仙打架，Cursor产品力确实牛逼，但也确实干不过codex和claude code，趁现在还能买个好价。\n\nSpaceX（及其关联的 SpaceXAI/xAI）表示，已与 AI 编程平台 Cursor 达成深度合作，共同打造“全球最佳的编程和知识工作 AI”（world’s best coding and knowledge work AI）。\n双方将结合 Cursor 在专业软件工程师中的领先产品与分发优势，以及 SpaceX 规模庞大的 Colossus 训练超算（相当于百万片 H100 级别的算力），来构建实用性最强的 AI 模型。\nCursor 授予 SpaceX 一项权利——在 2026 年晚些时候，SpaceX 可以选择：\n1. 以 600 亿美元 收购 Cursor；\n2. 为双方合作成果支付 100 亿美元（作为合作费用/补偿）。\n\n相关报道\n1. 合作内容和 600 亿收购期权：https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/10\n2. 确认 SpaceX 获得 600 亿美元收购权，并提到如果不收购可支付 100 亿美元：https://www.wsj.com/tech/spacex-secures-option-to-buy-ai-startup-cursor-for-60-billion-b48ac023",
@@ -178,14 +186,6 @@
       "summary": "DeepMind 和 谷歌 Research 最近联合发布了一篇论文《迈向智能体系统的科学化扩展研究》（ 👉https://arxiv.org/html/2512.08296v1），\u0026nbsp;用于预测基于大语言模型的智能体系统的性能，重点关注单智能体系统（SAS）与多智能体系统（MAS）之间的协调机制。研究人员通过在金融分析、网页浏览、规划和工作流执行等四个多样化的智能体基准上，对五种规范的智能体架构（包括独立、中心化和去中心化等）进行了180个配置的受控评估，最终得出一个包含协调效率、开销等经验指标的预测模型，该模型能以87%的准确率预测给定任务的最佳架构。（详细的数据在 P1～P11）\n\n单 Agent与多 Agent 如何选型？\n1️⃣判断是否需要多智能体系统\n\n如果一个智能体就能把任务做得很好，你就没必要引入多智能体协作了。研究发现了一个“能力饱和”的临界点：一旦单智能体在任务上的成功率超过一个经验阈值（大约是45%），那么再增加智能体进行协作，带来的收益就会递减，甚至变成负数。\n\n2️⃣ 如果需要多智能体系统，选择哪种架构\n\n1. 工具数量和复杂度\n\n任务中用到的工具越多，多智能体系统的效率惩罚就越严重，因为协调的开销会不成比例地惩罚团队效率。\n多智能体系统非常昂贵，开销可以高达单智能体系统的几倍。对于工具非常多的复杂任务，如果协调的开销超过大约 150 %，那么成本就会吞噬所有潜在的收益。\n\n2. 看任务的结构\n\n如果任务可以轻松分解成并行的子任务：例如金融分析这类结构化任务，推荐选择中心化架构，由一个中央协调器来审核子智能体的输出，这能有效地控制错误传播，从而实现最高的性能提升。\n\n如果任务需要大量的探索或在动态环境中进行：例如动态网页导航任务，推荐选择去中心化架构，它的并行效率和冗余度能更好地应对高复杂度和不确定性的探索空间。\n\n如果任务有严格的顺序依赖关系：例如规划类任务，必须一步一步来，前面的步骤会影响后面的状态，由于协调的开销分散了智能体的推理能力，此时，应尽量避免使用多智能体系统。",
       "date_published": "2025-12-16T22:51:22+08:00",
       "date_modified": "2025-12-16T22:51:22+08:00"
-    },
-    {
-      "id": "",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTk1NDQ4Ng==\u0026mid=2247486295\u0026idx=1\u0026sn=14d14fa80b9a98c54c56b363f30cb79e",
-      "title": "Booking 的智能客服实践分享",
-      "summary": "欢迎订阅合集 \u003ca href=\"https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2OTk1NDQ4Ng==\u0026amp;action=getalbum\u0026amp;album_id=4243205243418624006\u0026amp;subscene=142\u0026amp;subscene=\u0026amp;scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F0Tdan3R8juUlj-Lh-QMmew\u0026amp;nolastread=1#wechat_redirect\" class=\"normal_text_link album\" target=\"_blank\"\u003eAI 博客精选\u003c/a\u003e：精心编译海外技术厂商发布的高质量 AI 领域博客文章。\n\n在 Booking.com（国外的携程），酒店供应商和客人之间的及时沟通对旅行体验至关重要。客人常询问入住时间、停车等事宜，酒店需手动回复。忙时回复慢，可能致客人取消预订。为解决此问题，Booking.com 团队开发了一款智能客服助手，能自动为伙伴推荐回复客人信息的方案，或直接生成回复，节省时间并提高回复准确性。\n\n客服助手用 Python 开发，基于 LangGraph 框架，可自主调用不同工具来处理客人询问。它有三种行动方式：一是使用预设的模板回复；二是当无合适模板但有足够信息时，生成定制的自由文本回复；三是当信息不足或问题敏感时，选择不回复。它先通过防护机制，去除个人信息并检查问题是否属于“不回答”范畴，再借助 LLM（大型语言模型）决定下一步调用哪些工具，最后综合工具结果生成最终回复。它以微服务形式运行，用 FastAPI 框架，后端接入 OpenAI 的 GPT-4 Mini 模型，所有工具都托管在 Kubernetes 环境下的 MCP 服务器上。\n\n详细技术实现可右滑图片查看。\n原文链接：https://booking.ai/building-a-genai-agent-for-partner-guest-messaging-f54afb72e6cf",
-      "date_published": "2025-12-01T21:09:16+08:00",
-      "date_modified": "2025-12-01T21:09:16+08:00"
     }
   ]
 }
